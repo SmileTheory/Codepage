@@ -1,14 +1,14 @@
 SplineFontDB: 3.0
-FontName: Codepage
-FullName: Codepage
-FamilyName: Codepage
+FontName: CodepageMono
+FullName: Codepage Mono
+FamilyName: Codepage Mono
 Weight: Regular
 Copyright: Public domain.
 UComments: "This font originally made by James Canete in 2017.+AAoACgAA-This font is dual-licensed to the public domain and under the following+AAoA-license: you are granted a perpetual, irrevocable license to copy, modify,+AAoA-publish, and distribute this file as you see fit."
-Version: 000.001
+Version: 000.002
 ItalicAngle: 0
 UnderlinePosition: -64
-UnderlineWidth: 448
+UnderlineWidth: 64
 Ascent: 768
 Descent: 256
 InvalidEm: 0
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1486086150
-ModificationTime: 1487926404
+ModificationTime: 1488246431
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 26 10
+WinInfo: 0 33 13
 BeginPrivate: 6
 BlueValues 21 [0 0 448 448 640 640]
 OtherBlues 11 [-192 -192]
@@ -62,15 +62,15 @@ StemSnapH 32 [64 128 192 256 320 384 448 512]
 StemSnapV 32 [64 128 192 256 320 384 448 512]
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 458752 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 363 331
+BeginChars: 388 356
 
 StartChar: A
 Encoding: 65 65 0
 GlifName: A_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 256 64<128 320> 608 32G<192 256>
+Flags: W
+HStem: 0 21G<0 128 320 448> 256 64<128 320> 620 20G<204 244>
 VStem: 0 128<0 256 320 416> 320 128<0 256 320 416>
 DStem2: 0 416 128 416 0.707107 0.707107<90.5097 226.274> 224 640 224 512 0.707107 -0.707107<90.5097 226.274>
 LayerCount: 2
@@ -93,6 +93,7 @@ SplineSet
  320 0 l 1
  320 256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: B
@@ -100,9 +101,9 @@ Encoding: 66 66 1
 GlifName: B_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 320> 320 64<192 288> 576 64<192 320>
-VStem: 64 128<64 320 384 576>
+Flags: W
+HStem: 0 64<192 308.609> 320 64<192 303.174> 576 64<192 311.226>
+VStem: 64 128<64 320 384 576> 320 128<82.5396 297.831 395.335 567.49>
 LayerCount: 2
 Fore
 SplineSet
@@ -131,6 +132,7 @@ SplineSet
  448 192 448 0 320 0 c 2
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: C
@@ -138,9 +140,9 @@ Encoding: 67 67 2
 GlifName: C_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 320> 448 32G<384 448> 576 64<192 320>
-VStem: 0 128<160 480> 384 64<128 192 448 512>
+Flags: W
+HStem: 0 64<184.309 335.821> 448 21G<384 448> 576 64<184.309 335.821>
+VStem: 0 128<163.388 476.612> 384 64<113.359 192 448 526.641>
 LayerCount: 2
 Fore
 SplineSet
@@ -156,6 +158,7 @@ SplineSet
  128 128 160 64 256 64 c 0
  352 64 384 128 384 192 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: D
@@ -163,9 +166,9 @@ Encoding: 68 68 3
 GlifName: D_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 576 64<192 288>
-VStem: 64 128<64 576> 320 128<160 480>
+Flags: W
+HStem: 0 64<192 274.688> 576 64<192 274.688>
+VStem: 64 128<64 576> 320 128<161.015 478.985>
 LayerCount: 2
 Fore
 SplineSet
@@ -184,6 +187,7 @@ SplineSet
  352 640 448 544 448 320 c 3
  448 96 352 0 192 0 c 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: E
@@ -191,8 +195,8 @@ Encoding: 69 69 4
 GlifName: E_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 320 64<192 224> 416 32G<256 320> 448 32G<384 448> 576 64<192 288>
+Flags: W
+HStem: 0 64<192 288> 320 64<192 224> 428 20G<268 320> 448 21G<396 448> 576 64<192 288>
 VStem: 64 128<64 320 384 576>
 LayerCount: 2
 Fore
@@ -223,6 +227,7 @@ SplineSet
  448 0 l 25
  0 0 l 17xec
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: F
@@ -230,8 +235,8 @@ Encoding: 70 70 5
 GlifName: F_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 256> 320 64<192 224> 416 32G<256 320> 448 32G<384 448> 576 64<192 288>
+Flags: W
+HStem: 0 21G<0 256> 320 64<192 224> 428 20G<268 320> 448 21G<396 448> 576 64<192 288>
 VStem: 64 128<64 320 384 576>
 LayerCount: 2
 Fore
@@ -260,6 +265,7 @@ SplineSet
  192 320 l 1
  192 64 l 17xec
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: G
@@ -267,9 +273,9 @@ Encoding: 71 71 6
 GlifName: G_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 256 64<192 320> 448 32G<384 448> 576 64<192 320>
-VStem: 0 128<160 480> 320 128<96 256> 384 64<448 512>
+Flags: W
+HStem: 0 64<170.288 299.681> 256 64<192 320> 448 21G<384 448> 576 64<184.309 335.821>
+VStem: 0 128<145.357 476.612> 320 128<84.3705 256> 384 64<448 526.641>
 LayerCount: 2
 Fore
 SplineSet
@@ -290,6 +296,7 @@ SplineSet
  320 64 320 96 320 256 c 1
  192 256 l 1xfc
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: H
@@ -297,8 +304,8 @@ Encoding: 72 72 7
 GlifName: H_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 320 64<128 320> 608 32G<0 128 320 448>
+Flags: W
+HStem: 0 21G<0 128 320 448> 320 64<128 320> 620 20G<0 128 320 448>
 VStem: 0 128<0 320 384 640> 320 128<0 320 384 640>
 LayerCount: 2
 Fore
@@ -317,6 +324,7 @@ SplineSet
  128 320 l 25
  128 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: I
@@ -324,8 +332,8 @@ Encoding: 73 73 8
 GlifName: I_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 608 32G<128 384>
+Flags: W
+HStem: 0 21G<128 384> 620 20G<128 384>
 VStem: 192 128<64 576>
 LayerCount: 2
 Fore
@@ -344,6 +352,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: J
@@ -351,17 +360,17 @@ Encoding: 74 74 9
 GlifName: J_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 608 32G<192 448>
-VStem: 0 128<96 256> 256 128<96 576>
+Flags: W
+HStem: 0 64<149.716 234.284> 620 20G<192 448>
+VStem: 0 128<85.7791 256> 256 128<85.7791 576>
 LayerCount: 2
 Fore
 SplineSet
 192 0 m 3
- 64 0 0 0 0 256 c 1
+ 32 0 0 64 0 256 c 1
  128 256 l 1
- 128 128 128 64 192 64 c 0
- 256 64 256 128 256 256 c 2
+ 128 64 160 64 192 64 c 0
+ 224 64 256 64 256 256 c 2
  256 576 l 1
  192 608 l 1
  192 640 l 9
@@ -369,8 +378,9 @@ SplineSet
  448 608 l 1
  384 576 l 1
  384 256 l 2
- 384 0 320 0 192 0 c 3
+ 384 64 352 0 192 0 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: K
@@ -378,8 +388,8 @@ Encoding: 75 75 10
 GlifName: K_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 192 320 448> 608 32G<0 192 320 448>
+Flags: W
+HStem: 0 21G<0 192 320 448> 620 20G<0 192 320 448>
 VStem: 64 128<64 288 352 576> 320 128<0 160 480 640>
 DStem2: 192 352 288 320 0.707107 0.707107<45.2548 181.019> 288 320 192 288 0.707107 -0.707107<0 135.765>
 LayerCount: 2
@@ -406,6 +416,7 @@ SplineSet
  192 288 l 1
  192 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: L
@@ -413,8 +424,8 @@ Encoding: 76 76 11
 GlifName: L_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 608 32G<0 256>
+Flags: W
+HStem: 0 64<192 288> 620 20G<0 256>
 VStem: 64 128<64 576>
 LayerCount: 2
 Fore
@@ -435,6 +446,7 @@ SplineSet
  256 608 l 1
  192 576 l 9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: M
@@ -442,8 +454,8 @@ Encoding: 77 77 12
 GlifName: M_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 608 32G<0 128 320 448>
+Flags: W
+HStem: 0 21G<0 128 320 448> 620 20G<0 116 332 448>
 VStem: 0 128<0 416> 320 128<0 416>
 LayerCount: 2
 Fore
@@ -462,6 +474,7 @@ SplineSet
  128 416 l 1
  128 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: N
@@ -469,8 +482,8 @@ Encoding: 78 78 13
 GlifName: N_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 608 32G<0 128 320 448>
+Flags: W
+HStem: 0 21G<0 128 320 448> 620 20G<0 116 320 448>
 VStem: 0 128<0 416> 320 128<0 224 416 640>
 LayerCount: 2
 Fore
@@ -488,6 +501,7 @@ SplineSet
  128 416 l 1
  128 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: O
@@ -495,9 +509,9 @@ Encoding: 79 79 14
 GlifName: O_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 576 64<160 288>
-VStem: 0 128<96 544> 320 128<96 544>
+Flags: W
+HStem: 0 64<153.673 294.327> 576 64<153.673 294.327>
+VStem: 0 128<111.366 528.634> 320 128<111.366 528.634>
 LayerCount: 2
 Fore
 SplineSet
@@ -512,6 +526,7 @@ SplineSet
  448 32 384 0 224 0 c 3
  64 0 0 32 0 320 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: P
@@ -519,9 +534,9 @@ Encoding: 80 80 15
 GlifName: P_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 256> 320 64<192 288> 576 64<192 288>
-VStem: 64 128<64 320 384 576>
+Flags: W
+HStem: 0 21G<0 256> 320 64<192 295.703> 576 64<192 295.703>
+VStem: 64 128<64 320 384 576> 320 128<407.306 552.694>
 LayerCount: 2
 Fore
 SplineSet
@@ -546,6 +561,7 @@ SplineSet
  256 0 l 9
  0 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -553,9 +569,9 @@ Encoding: 81 81 16
 GlifName: Q_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 576 64<160 288>
-VStem: 0 128<96 544> 320 128<128 544>
+Flags: W
+HStem: 0 64<162.106 224> 576 64<160.241 287.759>
+VStem: 0 128<110.418 529.582> 320 128<123.865 529.582>
 LayerCount: 2
 Fore
 SplineSet
@@ -578,6 +594,7 @@ SplineSet
  160 576 128 576 128 320 c 0
  128 64 160 64 224 64 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: R
@@ -585,9 +602,9 @@ Encoding: 82 82 17
 GlifName: R_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 192 320 448> 320 64<192 224> 576 64<192 288>
-VStem: 64 128<64 320 384 576> 320 128<0 192>
+Flags: W
+HStem: 0 21G<0 192 320 448> 320 64<192 224> 576 64<192 295.703>
+VStem: 64 128<64 320 384 576> 320 128<0 192 405.21 552.694>
 LayerCount: 2
 Fore
 SplineSet
@@ -615,6 +632,7 @@ SplineSet
  192 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: S
@@ -622,9 +640,9 @@ Encoding: 83 83 18
 GlifName: S_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 320 64<192 256> 448 32G<320 448> 576 64<128 288>
-VStem: 0 128<96 192 448 576> 320 128<96 256 448 544>
+Flags: W
+HStem: 0 64<144.5 303.5> 320 64<183.232 264.768> 448 21G<320 448> 576 64<142.537 303.5>
+VStem: 0 128<86.6881 192 435.382 560.5> 320 128<86.68 257.473 448 553.312>
 LayerCount: 2
 Fore
 SplineSet
@@ -644,6 +662,7 @@ SplineSet
  64 0 0 64 0 192 c 1
  128 192 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: T
@@ -651,8 +670,8 @@ Encoding: 84 84 19
 GlifName: T_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 448 32G<64 128 384 448> 608 32G<64 448>
+Flags: W
+HStem: 0 21G<128 384> 448 21G<64 116 396 448> 620 20G<64 448>
 VStem: 192 128<64 544>
 LayerCount: 2
 Fore
@@ -673,6 +692,7 @@ SplineSet
  64 640 l 1
  448 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: U
@@ -680,9 +700,9 @@ Encoding: 85 85 20
 GlifName: U_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 608 32G<0 128 320 448>
-VStem: 0 128<96 640> 320 128<96 640>
+Flags: W
+HStem: 0 64<160.651 287.349> 620 20G<0 128 320 448>
+VStem: 0 128<111.274 640> 320 128<111.274 640>
 LayerCount: 2
 Fore
 SplineSet
@@ -698,6 +718,7 @@ SplineSet
  0 640 l 1
  128 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: V
@@ -705,8 +726,8 @@ Encoding: 86 86 21
 GlifName: V_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 256> 608 32G<0 128 320 448>
+Flags: W
+HStem: 0 21G<204 244> 620 20G<0 128 320 448>
 VStem: 0 128<224 640> 320 128<224 640>
 DStem2: 128 224 0 224 0.707107 -0.707107<0 135.765> 224 128 224 0 0.707107 0.707107<0 135.765>
 LayerCount: 2
@@ -724,6 +745,7 @@ SplineSet
  0 640 l 1
  128 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: W
@@ -731,9 +753,9 @@ Encoding: 87 87 22
 GlifName: W_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<64 160 288 384> 608 32G<0 128 320 448>
-VStem: 0 128<192 640> 192 64<352 384> 320 128<192 640>
+Flags: W
+HStem: 0 21G<76 168 280 372> 620 20G<0 128 320 448>
+VStem: 0 128<192 640> 192 64<340.992 384> 320 128<192 640>
 CounterMasks: 1 38
 LayerCount: 2
 Fore
@@ -757,6 +779,7 @@ SplineSet
  160 192 l 1
  192 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: X
@@ -764,8 +787,8 @@ Encoding: 88 88 23
 GlifName: X_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 96 352 448> 608 32G<0 96 352 448>
+Flags: W
+HStem: 0 21G<0 107.429 340.571 448> 620 20G<0 107.429 340.571 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -787,6 +810,7 @@ SplineSet
  128 320 l 1
  0 576 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Y
@@ -794,8 +818,8 @@ Encoding: 89 89 24
 GlifName: Y_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 608 32G<64 192 320 448>
+Flags: W
+HStem: 0 21G<128 384> 620 20G<64 192 320 448>
 VStem: 64 128<448 640> 192 128<64 256> 320 128<448 640>
 LayerCount: 2
 Fore
@@ -819,6 +843,7 @@ SplineSet
  64 448 l 1
  64 640 l 1xe0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Z
@@ -826,8 +851,8 @@ Encoding: 90 90 25
 GlifName: Z_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 288> 448 32G<0 64> 576 64<160 320>
+Flags: W
+HStem: 0 64<128 288> 448 21G<0 52> 576 64<160 320>
 VStem: 0 128<64 128> 320 128<512 576>
 DStem2: 0 128 128 128 0.640184 0.768221<81.9436 499.856>
 LayerCount: 2
@@ -851,6 +876,7 @@ SplineSet
  448 0 l 25
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -858,7 +884,7 @@ Encoding: 91 91 26
 GlifName: bracketleft
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<256 384> 576 64<256 384>
 VStem: 128 128<64 576>
 LayerCount: 2
@@ -874,6 +900,7 @@ SplineSet
  384 0 l 25
  128 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: backslash
@@ -881,8 +908,8 @@ Encoding: 92 92 27
 GlifName: backslash
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<384 448>
+Flags: W
+HStem: 0 21G<396 448>
 DStem2: 32 576 0 416 0.707107 -0.707107<90.5097 588.313>
 LayerCount: 2
 Fore
@@ -895,6 +922,7 @@ SplineSet
  0 416 l 9
  0 576 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketright
@@ -902,7 +930,7 @@ Encoding: 93 93 28
 GlifName: bracketright
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<128 256> 576 64<128 256>
 VStem: 256 128<64 576>
 LayerCount: 2
@@ -918,6 +946,7 @@ SplineSet
  128 576 l 25
  128 640 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asciicircum
@@ -925,7 +954,7 @@ Encoding: 94 94 29
 GlifName: asciicircum
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 512 256
 DStem2: 0 544 96 512 0.707107 0.707107<45.2548 226.274> 224 768 224 640 0.707107 -0.707107<90.5097 271.529>
 LayerCount: 2
@@ -941,6 +970,7 @@ SplineSet
  0 544 l 25
  224 768 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: underscore
@@ -948,7 +978,7 @@ Encoding: 95 95 30
 GlifName: underscore
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -128 64<0 512>
 LayerCount: 2
 Fore
@@ -959,6 +989,7 @@ SplineSet
  0 -128 l 1
  0 -64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: at
@@ -966,14 +997,14 @@ Encoding: 64 64 31
 GlifName: at
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 352> 128 256<224 320> 512 64<160 288>
-VStem: 0 128<96 480> 320 128<384 480>
+Flags: W
+HStem: 0 64<158.246 358.688> 32 32<340 384> 128 256<214.781 320> 512 64<157.681 289.69>
+VStem: 0 128<96.8209 479.179> 320 128<384 477.562>
 LayerCount: 2
 Fore
 SplineSet
-384 64 m 1
- 384 32 l 1
+384 64 m 1x7c
+ 384 32 l 1x7c
  384 32 320 0 224 0 c 0
  0 0 0 64 0 288 c 0
  0 512 0 576 224 576 c 0
@@ -983,9 +1014,10 @@ SplineSet
  192 352 192 384 320 384 c 1
  320 480 288 512 224 512 c 0
  128 512 128 448 128 288 c 0
- 128 128 128 64 224 64 c 2
- 384 64 l 1
+ 128 128 128 64 224 64 c 2xbc
+ 384 64 l 1x7c
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: exclam
@@ -993,9 +1025,9 @@ Encoding: 33 33 32
 GlifName: exclam
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 128<224 288> 608 32G<224 288>
-VStem: 128 256<384 576> 192 128<32 96>
+Flags: W
+HStem: 0 128<209.798 302.202> 620 20G<224 288>
+VStem: 128 256<389.403 578.03> 192 128<17.7979 110.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -1010,6 +1042,7 @@ SplineSet
  320 32 288 0 256 0 c 3
  224 0 192 32 192 64 c 3xd0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotedbl
@@ -1017,9 +1050,9 @@ Encoding: 34 34 33
 GlifName: quotedbl
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 448 256<160 160 352 352>
-VStem: 64 128<544 672> 320 128<544 672>
+Flags: W
+HStem: 448 256<139.641 170.863 341.137 372.359>
+VStem: 64 128<542.531 682.906> 320 128<542.531 682.906>
 LayerCount: 2
 Fore
 SplineSet
@@ -1036,6 +1069,7 @@ SplineSet
  320 672 352 704 384 704 c 0
  416 704 448 672 448 608 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -1043,8 +1077,8 @@ Encoding: 35 35 34
 GlifName: numbersign
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<64 192 256 384> 128 64<0 64 192 256 384 448> 384 64<0 64 192 256 384 448>
+Flags: W
+HStem: 0 21G<64 192 256 384> 128 64<0 64 192 256 384 448> 384 64<0 64 192 256 384 448>
 VStem: 64 128<0 128 192 384 448 576> 256 128<0 128 192 384 448 576>
 LayerCount: 2
 Fore
@@ -1084,6 +1118,7 @@ SplineSet
  192 0 l 25
  64 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dollar
@@ -1091,34 +1126,35 @@ Encoding: 36 36 35
 GlifName: dollar
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 192> 320 64<160 288> 448 32G<384 448> 576 64<160 192 320 352>
-VStem: 0 128<416 544> 192 128<-128 0 640 768> 320 128<96 288>
+Flags: W
+HStem: 0 64<143.968 192> 320 64<155.909 285.894> 448 21G<359 448> 576 64<157.688 192 320 352>
+VStem: 0 128<410.198 549.802> 0 64<147 192> 192 128<-128 0 640 768> 320 128<94.4161 289.584> 384 64<448 493>
 LayerCount: 2
 Fore
 SplineSet
-64 192 m 1xfc
+64 192 m 1xf6
  64 192 96 64 224 64 c 0
- 288 64 320 96 320 192 c 1xfa
+ 288 64 320 96 320 192 c 1xf5
  320 288 288 320 224 320 c 0
  64 320 0 384 0 480 c 0
  0 576 64 640 192 640 c 1
  192 768 l 1
  320 768 l 1
- 320 640 l 1xfc
+ 320 640 l 1
  416 640 448 576 448 448 c 1
- 384 448 l 1
+ 384 448 l 1xfa80
  384 448 352 576 224 576 c 3
  160 576 128 544 128 480 c 3
  128 416 160 384 224 384 c 0
- 384 384 448 320 448 192 c 0xfa
+ 384 384 448 320 448 192 c 0xf9
  448 64 384 0 320 0 c 1
  320 -128 l 1
  192 -128 l 1
  192 0 l 1
  32 0 0 64 0 192 c 1
- 64 192 l 1xfc
+ 64 192 l 1xf6
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: percent
@@ -1126,9 +1162,9 @@ Encoding: 37 37 36
 GlifName: percent
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 128<352 416> 384 128<32 96>
-VStem: 0 128<416 480> 320 128<32 96>
+Flags: W
+HStem: 0 128<337.798 430.202> 384 128<17.7979 110.202>
+VStem: 0 128<401.798 494.202> 320 128<17.7979 110.202>
 DStem2: 0 96 32 0 0.707107 0.707107<0 543.058>
 LayerCount: 2
 Fore
@@ -1151,6 +1187,7 @@ SplineSet
  448 416 l 9
  32 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -1158,9 +1195,9 @@ Encoding: 38 38 37
 GlifName: ampersand
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 576 64<192 256>
-VStem: 0 128<96 288> 64 128<448 576> 256 128<480 576>
+Flags: W
+HStem: 0 64<145.757 229.417> 576 64<195.512 252.488>
+VStem: 0 128<93.9332 290.064> 64 128<459.532 573.651> 256 128<468.036 573.651>
 LayerCount: 2
 Fore
 SplineSet
@@ -1190,6 +1227,7 @@ SplineSet
  224 64 224 64 256 160 c 1
  192 320 l 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -1197,9 +1235,9 @@ Encoding: 39 39 38
 GlifName: quotesingle
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 448 256
-VStem: 128 128<608 704>
+VStem: 128 128<608 689.59>
 LayerCount: 2
 Fore
 SplineSet
@@ -1211,6 +1249,7 @@ SplineSet
  160 544 l 1
  128 608 l 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: parenleft
@@ -1218,9 +1257,9 @@ Encoding: 40 40 39
 GlifName: parenleft
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<320 384> 576 64<320 384>
-VStem: 128 128<160 480>
+Flags: W
+HStem: 0 64<306.744 384> 576 64<306.744 384>
+VStem: 128 128<160.491 479.509>
 LayerCount: 2
 Fore
 SplineSet
@@ -1232,6 +1271,7 @@ SplineSet
  256 64 320 64 384 64 c 1
  384 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: parenright
@@ -1239,9 +1279,9 @@ Encoding: 41 41 40
 GlifName: parenright
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 192> 576 64<128 192>
-VStem: 256 128<160 480>
+Flags: W
+HStem: 0 64<128 205.256> 576 64<128 205.256>
+VStem: 256 128<160.491 479.509>
 LayerCount: 2
 Fore
 SplineSet
@@ -1253,6 +1293,7 @@ SplineSet
  192 640 384 640 384 320 c 0
  384 0 192 0 128 0 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asterisk
@@ -1260,8 +1301,8 @@ Encoding: 42 42 41
 GlifName: asterisk
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<0 160 352 512> 416 32G<64 160 352 448>
+Flags: W
+HStem: 256 64<0 160 352 512> 428 20G<64 175 337 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -1289,6 +1330,7 @@ SplineSet
  160 256 l 1
  0 256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: plus
@@ -1296,8 +1338,8 @@ Encoding: 43 43 42
 GlifName: plus
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<64 192 320 448> 416 32G<192 320>
+Flags: W
+HStem: 256 64<64 192 320 448> 428 20G<192 320>
 VStem: 192 128<128 256 320 448>
 LayerCount: 2
 Fore
@@ -1316,6 +1358,7 @@ SplineSet
  64 256 l 25
  64 320 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: comma
@@ -1323,9 +1366,9 @@ Encoding: 44 44 43
 GlifName: comma
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -64 256
-VStem: 192 128<32 192>
+VStem: 192 128<43.8125 177.59>
 LayerCount: 2
 Fore
 SplineSet
@@ -1337,6 +1380,7 @@ SplineSet
  224 32 l 1
  224 32 192 64 192 96 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: hyphen
@@ -1344,7 +1388,7 @@ Encoding: 45 45 44
 GlifName: hyphen
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 448>
 LayerCount: 2
 Fore
@@ -1355,6 +1399,7 @@ SplineSet
  0 256 l 1
  0 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: period
@@ -1362,9 +1407,9 @@ Encoding: 46 46 45
 GlifName: period
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 128<224 288>
-VStem: 192 128<32 96>
+Flags: W
+HStem: 0 128<209.798 302.202>
+VStem: 192 128<17.7979 110.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -1374,6 +1419,7 @@ SplineSet
  320 32 288 0 256 0 c 0
  224 0 192 32 192 64 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: slash
@@ -1381,8 +1427,8 @@ Encoding: 47 47 46
 GlifName: slash
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 64>
+Flags: W
+HStem: 0 21G<0 52>
 DStem2: 0 96 32 0 0.707107 0.707107<0 543.058>
 LayerCount: 2
 Fore
@@ -1395,6 +1441,7 @@ SplineSet
  448 416 l 1
  32 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: zero
@@ -1402,9 +1449,9 @@ Encoding: 48 48 47
 GlifName: zero
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 256> 256 128<192 256> 576 64<192 256>
-VStem: 0 128<160 480> 192 64<256 384> 320 128<160 480>
+Flags: W
+HStem: 0 64<177.609 270.391> 256 128<195.296 252.704> 576 64<177.43 270.57>
+VStem: 0 128<145.807 477.148> 192 64<257.438 382.562> 320 128<145.807 477.148>
 CounterMasks: 1 fc
 LayerCount: 2
 Fore
@@ -1425,6 +1472,7 @@ SplineSet
  448 64 352 0 224 0 c 0
  96 0 0 64 0 320 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: one
@@ -1432,8 +1480,8 @@ Encoding: 49 49 48
 GlifName: one
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<64 192 320 448> 608 32G<192 320>
+Flags: W
+HStem: 0 64<64 192 320 448> 620 20G<204 320>
 VStem: 192 128<64 448>
 LayerCount: 2
 Fore
@@ -1451,6 +1499,7 @@ SplineSet
  448 0 l 25
  64 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: two
@@ -1458,9 +1507,9 @@ Encoding: 50 50 49
 GlifName: two
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 128<352 448> 0 64<128 288> 576 64<128 320>
-VStem: 0 128<64 160 512 576> 320 128<448 576>
+Flags: W
+HStem: 0 128<352 448> 0 64<128 288> 576 64<137.288 310.712>
+VStem: 0 128<64 160 512 564.576> 320 128<458.853 565.901>
 DStem2: 0 160 128 160 0.707107 0.707107<90.5097 473.038>
 LayerCount: 2
 Fore
@@ -1483,6 +1532,7 @@ SplineSet
  128 64 l 1
  288 64 l 1x78
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: three
@@ -1490,9 +1540,9 @@ Encoding: 51 51 50
 GlifName: three
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 320 64<128 288> 576 64<160 288>
-VStem: 0 128<96 128 512 544> 320 128<96 288 416 544>
+Flags: W
+HStem: 0 64<149.47 287.759> 320 64<128 289.625> 576 64<149.47 293.284>
+VStem: 0 128<86.6699 128 512 553.33> 320 128<94.4161 285.942 410.054 549.802>
 LayerCount: 2
 Fore
 SplineSet
@@ -1515,6 +1565,7 @@ SplineSet
  160 320 128 320 128 320 c 1
  128 352 128 384 128 384 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: four
@@ -1522,8 +1573,8 @@ Encoding: 52 52 51
 GlifName: four
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 448> 256 64<96 256 384 448> 608 32G<256 384>
+Flags: W
+HStem: 0 21G<192 448> 256 64<96 256 384 448> 620 20G<268 384>
 VStem: 256 128<64 256 320 480>
 DStem2: 0 352 96 320 0.707107 0.707107<45.2548 271.529>
 LayerCount: 2
@@ -1550,6 +1601,7 @@ SplineSet
  448 0 l 9
  192 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: five
@@ -1557,9 +1609,9 @@ Encoding: 53 53 52
 GlifName: five
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 320 64<128 288> 576 64<128 448>
-VStem: 0 128<96 128 384 576> 320 128<96 288>
+Flags: W
+HStem: 0 64<149.47 287.759> 320 64<128 285.894> 576 64<128 448>
+VStem: 0 128<86.6699 128 384 576> 320 128<94.4161 289.584>
 LayerCount: 2
 Fore
 SplineSet
@@ -1579,6 +1631,7 @@ SplineSet
  448 640 l 1
  448 576 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: six
@@ -1586,9 +1639,9 @@ Encoding: 54 54 53
 GlifName: six
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 320 64<160 288> 576 64<192 320>
-VStem: 0 128<96 480> 320 128<96 288>
+Flags: W
+HStem: 0 64<158.31 287.759> 320 64<158.375 287.759> 576 64<191.04 320>
+VStem: 0 128<95.2553 484.044> 320 128<94.4161 289.584>
 LayerCount: 2
 Fore
 SplineSet
@@ -1606,6 +1659,7 @@ SplineSet
  0 0 0 96 0 352 c 0
  0 544 96 640 320 640 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: seven
@@ -1613,8 +1667,8 @@ Encoding: 55 55 54
 GlifName: seven
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 256> 512 128<0 96> 576 64<160 320>
+Flags: W
+HStem: 0 21G<128 256> 512 128<0 96> 576 64<160 320>
 VStem: 128 128<0 224> 320 128<416 576>
 DStem2: 128 224 256 224 0.707107 0.707107<90.5097 271.529>
 LayerCount: 2
@@ -1634,6 +1688,7 @@ SplineSet
  0 640 l 25xd8
  448 640 l 1xb8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eight
@@ -1641,32 +1696,33 @@ Encoding: 56 56 55
 GlifName: eight
 Width: 512
 VWidth: 0
-Flags: HWO
-HStem: 0 64<160 288> 320 64<160 288> 576 64<160 288>
-VStem: 0 128<96 288 416 544> 320 128<96 288 416 544>
+Flags: W
+HStem: 0 64<159.768 288.232> 320 64<158.375 289.625> 576 64<154.66 293.34>
+VStem: 0 128<98.5661 285.942 410.054 549.802> 320 128<98.5661 285.942 410.054 549.802>
 LayerCount: 2
 Fore
 SplineSet
-224 384 m 5
- 288 384 320 416 320 480 c 5
- 320 544 288 576 224 576 c 7
- 160 576 128 544 128 480 c 7
- 128 416 160 384 224 384 c 5
-448 192 m 5
- 448 64 352 0 224 0 c 5
- 96 0 0 64 0 192 c 5
- 0 320 96 352 96 352 c 5
- 96 352 0 384 0 480 c 5
- 0 576 96 640 224 640 c 5
- 352 640 448 576 448 480 c 5
- 448 384 352 352 352 352 c 5
- 352 352 448 320 448 192 c 5
-224 320 m 5
- 160 320 128 288 128 192 c 7
- 128 96 160 64 224 64 c 7
- 288 64 320 96 320 192 c 5
- 320 288 288 320 224 320 c 5
+224 384 m 1
+ 288 384 320 416 320 480 c 1
+ 320 544 288 576 224 576 c 3
+ 160 576 128 544 128 480 c 3
+ 128 416 160 384 224 384 c 1
+448 192 m 1
+ 448 64 352 0 224 0 c 1
+ 96 0 0 64 0 192 c 1
+ 0 320 96 352 96 352 c 1
+ 96 352 0 384 0 480 c 1
+ 0 576 96 640 224 640 c 1
+ 352 640 448 576 448 480 c 1
+ 448 384 352 352 352 352 c 1
+ 352 352 448 320 448 192 c 1
+224 320 m 1
+ 160 320 128 288 128 192 c 3
+ 128 96 160 64 224 64 c 3
+ 288 64 320 96 320 192 c 1
+ 320 288 288 320 224 320 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: nine
@@ -1674,9 +1730,9 @@ Encoding: 57 57 56
 GlifName: nine
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<64 224> 320 64<160 288> 576 64<160 288>
-VStem: 0 128<416 544> 320 128<160 544>
+Flags: W
+HStem: 0 64<64 236.095> 320 64<154.716 294.477> 576 64<154.716 292.115>
+VStem: 0 128<410.198 549.802> 320 128<153.878 549.676>
 LayerCount: 2
 Fore
 SplineSet
@@ -1694,6 +1750,7 @@ SplineSet
  448 640 448 544 448 352 c 0
  448 32 352 0 64 0 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: colon
@@ -1701,9 +1758,9 @@ Encoding: 58 58 57
 GlifName: colon
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 64 128<224 288> 384 128<224 288>
-VStem: 192 128<96 160 416 480>
+Flags: W
+HStem: 64 128<209.798 302.202> 384 128<209.798 302.202>
+VStem: 192 128<81.7979 174.202 401.798 494.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -1718,6 +1775,7 @@ SplineSet
  320 96 288 64 256 64 c 0
  224 64 192 96 192 128 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: semicolon
@@ -1725,9 +1783,9 @@ Encoding: 59 59 58
 GlifName: semicolon
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 128> 384 128<224 288>
-VStem: 192 128<64 160 416 480>
+Flags: W
+HStem: 0 21G<128 158> 384 128<209.798 302.202>
+VStem: 192 128<76.8867 174.202 401.798 494.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -1744,6 +1802,7 @@ SplineSet
  224 64 l 1
  224 64 192 96 192 128 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: less
@@ -1751,8 +1810,8 @@ Encoding: 60 60 59
 GlifName: less
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<320 448>
+Flags: W
+HStem: 0 21G<332 448>
 DStem2: 192 288 64 288 0.707107 -0.707107<0 316.784> 64 288 192 288 0.707107 0.707107<90.5097 407.294>
 LayerCount: 2
 Fore
@@ -1767,6 +1826,7 @@ SplineSet
  352 0 l 1
  64 288 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: equal
@@ -1774,7 +1834,7 @@ Encoding: 61 61 60
 GlifName: equal
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 192 64<64 448> 384 64<64 448>
 LayerCount: 2
 Fore
@@ -1790,6 +1850,7 @@ SplineSet
  64 192 l 1
  64 256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: greater
@@ -1797,8 +1858,8 @@ Encoding: 62 62 61
 GlifName: greater
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<64 192>
+Flags: W
+HStem: 0 21G<64 180>
 DStem2: 160 576 64 544 0.707107 -0.707107<0 316.784> 64 32 160 0 0.707107 0.707107<45.2548 362.039>
 LayerCount: 2
 Fore
@@ -1813,6 +1874,7 @@ SplineSet
  160 576 l 1
  448 288 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: question
@@ -1820,9 +1882,9 @@ Encoding: 63 63 62
 GlifName: question
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 128<224 288> 448 32G<64 64> 576 64<160 288>
-VStem: 0 128<480 544> 192 128<32 96 224 384> 320 128<448 544>
+Flags: W
+HStem: 0 128<209.798 302.202> 448 21G<48 80> 576 64<149.47 298.53>
+VStem: 0 128<465.798 553.33> 192 128<17.7979 110.202 216.39 371> 320 128<461 554.097>
 LayerCount: 2
 Fore
 SplineSet
@@ -1843,6 +1905,7 @@ SplineSet
  320 32 288 0 256 0 c 0
  224 0 192 32 192 64 c 0xf8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: grave
@@ -1850,7 +1913,7 @@ Encoding: 96 96 63
 GlifName: grave
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 512 192
 VStem: 128 256
 LayerCount: 2
@@ -1863,6 +1926,7 @@ SplineSet
  128 672 l 25
  128 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: a
@@ -1870,9 +1934,9 @@ Encoding: 97 97 64
 GlifName: a
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 256 64<160 224> 384 64<64 224>
-VStem: 0 128<96 224> 256 128<96 224>
+Flags: W
+HStem: 0 64<150.452 234.432> 256 64<151.767 234.863> 384 64<64 209.578>
+VStem: 0 128<86.1997 233.8> 256 128<85.0938 227.883>
 LayerCount: 2
 Fore
 SplineSet
@@ -1896,6 +1960,7 @@ SplineSet
  352 0 l 1
  288 64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: b
@@ -1903,9 +1968,9 @@ Encoding: 98 98 65
 GlifName: b
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 384 64<192 256> 608 32G<0 192>
-VStem: 64 128<64 384 448 576> 320 128<96 288>
+Flags: W
+HStem: 0 64<192 295.267> 384 64<192 245.644> 620 20G<0 192>
+VStem: 64 128<64 384 448 576> 320 128<95.087 298.48>
 LayerCount: 2
 Fore
 SplineSet
@@ -1923,6 +1988,7 @@ SplineSet
  448 64 384 0 256 0 c 9
  64 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: c
@@ -1930,9 +1996,9 @@ Encoding: 99 99 66
 GlifName: c
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 384 64<160 288>
-VStem: 0 128<96 352> 320 128<96 128 320 352>
+Flags: W
+HStem: 0 64<161.096 299.027> 384 64<161.096 299.027>
+VStem: 0 128<99.7228 348.277> 320 128<87.5654 128 320 360.435>
 LayerCount: 2
 Fore
 SplineSet
@@ -1948,6 +2014,7 @@ SplineSet
  352 448 416 416 448 320 c 1
  320 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: d
@@ -1955,9 +2022,9 @@ Encoding: 100 100 67
 GlifName: d
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 224> 384 64<192 256> 608 32G<192 384>
-VStem: 0 128<96 288> 256 128<96 384 448 576>
+Flags: W
+HStem: 0 64<141.082 229.752> 384 64<202.356 256> 620 20G<192 384>
+VStem: 0 128<95.087 298.48> 256 128<91.6855 384 448 576>
 LayerCount: 2
 Fore
 SplineSet
@@ -1980,6 +2047,7 @@ SplineSet
  192 640 l 1
  384 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: e
@@ -1987,27 +2055,28 @@ Encoding: 101 101 68
 GlifName: e
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 256 64<128 320> 384 64<160 288>
-VStem: 0 128<96 256 320 352> 320 128<96 128 320 352>
+Flags: W
+HStem: 0 64<161.096 299.027> 256 64<128 320> 384 64<149.47 298.53>
+VStem: 0 128<101.148 256 320 351.623> 320 128<87.5654 128 320 361.328>
 LayerCount: 2
 Fore
 SplineSet
-128 256 m 5
- 128 224 l 4
- 128 96 160 64 224 64 c 5
- 288 64 320 96 320 128 c 5
- 448 128 l 5
- 416 32 352 0 224 0 c 4
- 64 0 0 64 0 224 c 4
- 0 384 64 448 224 448 c 4
- 384 448 448 384 448 256 c 13
- 128 256 l 5
-128 320 m 5
- 320 320 l 5
- 320 352 288 384 224 384 c 4
- 160 384 128 352 128 320 c 5
+128 256 m 1
+ 128 224 l 0
+ 128 96 160 64 224 64 c 1
+ 288 64 320 96 320 128 c 1
+ 448 128 l 1
+ 416 32 352 0 224 0 c 0
+ 64 0 0 64 0 224 c 0
+ 0 384 64 448 224 448 c 0
+ 384 448 448 384 448 256 c 9
+ 128 256 l 1
+128 320 m 1
+ 320 320 l 1
+ 320 352 288 384 224 384 c 0
+ 160 384 128 352 128 320 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: f
@@ -2015,9 +2084,9 @@ Encoding: 102 102 69
 GlifName: f
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<64 320> 320 64<64 128 256 320> 448 32G<384 448> 576 64<256 320>
-VStem: 128 128<64 320 384 544>
+Flags: W
+HStem: 0 21G<64 320> 320 64<64 128 256 320> 448 21G<384 448> 576 64<265.407 329.678>
+VStem: 128 128<64 320 384 549.925> 384 64<448 516.625>
 LayerCount: 2
 Fore
 SplineSet
@@ -2041,6 +2110,7 @@ SplineSet
  320 0 l 9
  64 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: g
@@ -2048,9 +2118,9 @@ Encoding: 103 103 70
 GlifName: g
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 64<128 256> 0 64<128 256> 384 64<128 224>
-VStem: 0 128<-128 -64 96 352> 256 128<-96 32 64 352>
+Flags: W
+HStem: -192 64<135.64 248.36> 0 64<141.082 243.634> 384 64<141.082 229.752>
+VStem: 0 128<-119.325 -64 95.087 352.913> 256 128<-109.842 32 74.1355 356.314>
 LayerCount: 2
 Fore
 SplineSet
@@ -2076,6 +2146,7 @@ SplineSet
  384 384 l 1
  384 224 384 224 384 32 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: h
@@ -2083,9 +2154,9 @@ Encoding: 104 104 71
 GlifName: h
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 192 320 448> 384 64<256 352> 608 32G<0 192>
-VStem: 64 128<64 288 352 576> 320 128<0 352>
+Flags: W
+HStem: 0 21G<0 192 320 448> 384 64<262.682 352> 620 20G<0 192>
+VStem: 64 128<64 318.375 352 576> 320 128<0 346.631>
 LayerCount: 2
 Fore
 SplineSet
@@ -2107,6 +2178,7 @@ SplineSet
  192 224 192 0 192 0 c 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: i
@@ -2114,9 +2186,9 @@ Encoding: 105 105 72
 GlifName: i
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 416 32G<128 320> 512 128<224 288>
-VStem: 192 128<64 384 544 608>
+Flags: W
+HStem: 0 21G<128 384> 428 20G<128 320> 512 128<209.798 302.202>
+VStem: 192 128<64 384 529.798 622.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -2137,6 +2209,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: j
@@ -2144,9 +2217,9 @@ Encoding: 106 106 73
 GlifName: j
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 64<224 288> -32 32G<64 192> 416 32G<256 448> 512 128<352 416>
-VStem: 64 128<-96 0> 320 128<-96 384 544 608>
+Flags: W
+HStem: -192 64<216.488 295.512> -20 20G<64 192> 428 20G<256 448> 512 128<337.798 430.202>
+VStem: 64 128<-101.25 0> 320 128<-101.25 384 529.798 622.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -2167,6 +2240,7 @@ SplineSet
  192 0 l 1
  192 -96 224 -128 256 -128 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: k
@@ -2174,8 +2248,8 @@ Encoding: 107 107 74
 GlifName: k
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 192 320 448> 416 32G<320 448> 608 32G<0 192>
+Flags: W
+HStem: 0 21G<0 192 320 448> 428 20G<320 448> 620 20G<0 192>
 VStem: 64 128<64 224 288 576> 320 128<0 96 416 448>
 DStem2: 192 288 288 256 0.707107 0.707107<45.2548 181.019> 288 256 192 224 0.707107 -0.707107<0 135.765>
 LayerCount: 2
@@ -2202,6 +2276,7 @@ SplineSet
  192 640 l 1
  192 288 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: l
@@ -2209,8 +2284,8 @@ Encoding: 108 108 75
 GlifName: l
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 608 32G<128 320>
+Flags: W
+HStem: 0 21G<128 384> 620 20G<128 320>
 VStem: 192 128<64 576>
 LayerCount: 2
 Fore
@@ -2227,6 +2302,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: m
@@ -2234,9 +2310,9 @@ Encoding: 109 109 76
 GlifName: m
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 352 96<128 160 256 288>
-VStem: 0 128<0 352> 192 64<64 288> 224 32<320 352> 320 128<0 288>
+Flags: W
+HStem: 0 21G<0 128 320 448> 352 96<128 167.775 263.398 294.653>
+VStem: 0 128<0 352> 192 64<64 296.119> 224 32<320 349.756> 320 128<0 295.937>
 LayerCount: 2
 Fore
 SplineSet
@@ -2255,6 +2331,7 @@ SplineSet
  0 0 l 25
  0 448 l 1xf4
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: n
@@ -2262,9 +2339,9 @@ Encoding: 110 110 77
 GlifName: n
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<64 192 320 448> 384 64<224 288>
-VStem: 64 128<0 352> 320 128<0 352>
+Flags: W
+HStem: 0 21G<64 192 320 448> 384 64<213.347 297.548>
+VStem: 64 128<0 362.906> 320 128<0 360.694>
 LayerCount: 2
 Fore
 SplineSet
@@ -2284,6 +2361,7 @@ SplineSet
  64 0 l 25
  64 384 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: o
@@ -2291,9 +2369,9 @@ Encoding: 111 111 78
 GlifName: o
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 384 64<160 288>
-VStem: 0 128<96 352> 320 128<96 352>
+Flags: W
+HStem: 0 64<161.096 286.904> 384 64<161.096 286.904>
+VStem: 0 128<99.7228 348.277> 320 128<99.7228 348.277>
 LayerCount: 2
 Fore
 SplineSet
@@ -2308,6 +2386,7 @@ SplineSet
  448 64 384 0 224 0 c 0
  64 0 0 64 0 224 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: p
@@ -2315,9 +2394,9 @@ Encoding: 112 112 79
 GlifName: p
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 32G<0 256> 0 64<192 320> 384 64<224 320>
-VStem: 64 128<-128 32 64 352> 320 128<96 352>
+Flags: W
+HStem: -192 21G<0 256> 0 64<204.366 306.918> 384 64<218.248 306.918>
+VStem: 64 128<-128 32 74.1355 356.314> 320 128<95.087 352.913>
 LayerCount: 2
 Fore
 SplineSet
@@ -2343,6 +2422,7 @@ SplineSet
  448 64 384 0 256 0 c 1
  192 0 192 32 192 32 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: q
@@ -2350,9 +2430,9 @@ Encoding: 113 113 80
 GlifName: q
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 32G<192 448> 0 64<128 256> 384 64<128 224>
-VStem: 0 128<96 352> 256 128<-128 32 64 352>
+Flags: W
+HStem: -192 21G<192 448> 0 64<141.082 243.634> 384 64<141.082 229.752>
+VStem: 0 128<95.087 352.913> 256 128<-128 32 74.1355 356.314>
 LayerCount: 2
 Fore
 SplineSet
@@ -2378,6 +2458,7 @@ SplineSet
  256 -128 l 1
  256 32 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: r
@@ -2385,9 +2466,9 @@ Encoding: 114 114 81
 GlifName: r
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 256> 384 64<224 288>
-VStem: 64 128<64 224> 320 128<256 352>
+Flags: W
+HStem: 0 21G<0 256> 384 64<234.585 286.921>
+VStem: 64 128<64 311.49> 320 128<256 348.404>
 LayerCount: 2
 Fore
 SplineSet
@@ -2409,6 +2490,7 @@ SplineSet
  64 64 l 1
  64 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: s
@@ -2416,28 +2498,29 @@ Encoding: 115 115 82
 GlifName: s
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 320> 192 64<192 256> 384 64<128 288>
-CounterMasks: 1 e0
+Flags: W
+HStem: 0 64<149.893 314.193> 384 64<133.807 298.107>
+VStem: 0 128<87.5 128 323.458 372.359> 320 128<75.2578 124.542 320 360.5>
 LayerCount: 2
 Fore
 SplineSet
 128 128 m 1
  128 128 128 64 224 64 c 3
  320 64 320 96 320 96 c 0
- 320 128 256 192 224 192 c 3
- 160 192 0 320 0 352 c 0
+ 320 128 192 192 192 192 c 0
+ 192 192 0 288 0 352 c 0
  0 352 0 448 224 448 c 3
  448 448 448 320 448 320 c 1
  320 320 l 1
  320 320 320 384 224 384 c 3
  128 384 128 352 128 352 c 0
- 128 320 192 256 224 256 c 3
- 288 256 448 128 448 96 c 3
+ 128 320 256 256 256 256 c 0
+ 256 256 448 160 448 96 c 3
  448 64 448 0 224 0 c 3
  0 0 0 128 0 128 c 1
  128 128 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: t
@@ -2445,9 +2528,9 @@ Encoding: 116 116 83
 GlifName: t
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<256 320> 384 64<0 128 256 384> 608 32G<192 256>
-VStem: 128 128<64 384 448 544> 320 128<64 128>
+Flags: W
+HStem: 0 64<259.377 316.623> 384 64<0 128 256 384> 620 20G<204 256>
+VStem: 128 128<72.6746 384 448 544> 320 128<72.6746 128>
 LayerCount: 2
 Fore
 SplineSet
@@ -2470,6 +2553,7 @@ SplineSet
  0 384 l 25
  0 448 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u
@@ -2477,9 +2561,9 @@ Encoding: 117 117 84
 GlifName: u
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 416 32G<0 128 256 384>
-VStem: 0 128<96 448> 256 128<96 448>
+Flags: W
+HStem: 0 64<155.795 230.216> 428 20G<0 128 256 384>
+VStem: 0 128<96.3773 448> 256 128<91.6855 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -2499,6 +2583,7 @@ SplineSet
  288 64 288 0 192 0 c 0
  64 0 0 64 0 224 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: v
@@ -2506,8 +2591,8 @@ Encoding: 118 118 85
 GlifName: v
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 320> 416 32G<0 128 320 448>
+Flags: W
+HStem: 0 21G<143.333 304.667> 428 20G<0 128 320 448>
 VStem: 0 128<192 448> 320 128<192 448>
 LayerCount: 2
 Fore
@@ -2525,6 +2610,7 @@ SplineSet
  0 192 l 1
  0 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: w
@@ -2532,9 +2618,9 @@ Encoding: 119 119 86
 GlifName: w
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 128<128 160 288 320> 416 32G<0 128 320 448>
-VStem: 0 128<128 448> 192 64<288 320> 320 128<128 448>
+Flags: W
+HStem: 0 128<128 160 288 320> 428 20G<0 128 320 448>
+VStem: 0 128<128 448> 192 64<276.992 320> 320 128<128 448>
 CounterMasks: 1 38
 LayerCount: 2
 Fore
@@ -2558,6 +2644,7 @@ SplineSet
  0 96 l 1
  0 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: x
@@ -2565,8 +2652,8 @@ Encoding: 120 120 87
 GlifName: x
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 416 32G<0 128 320 448>
+Flags: W
+HStem: 0 21G<0 143 305 448> 428 20G<0 143 305 448>
 DStem2: 128 448 0 448 0.581238 -0.813733<0 159.957 316.194 476.15> 0 0 128 0 0.581238 0.813733<74.3985 234.355 390.592 550.549>
 LayerCount: 2
 Fore
@@ -2585,6 +2672,7 @@ SplineSet
  160 224 l 1
  0 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: y
@@ -2592,9 +2680,9 @@ Encoding: 121 121 88
 GlifName: y
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 64<0 224> 0 64<160 288> 416 32G<0 128 320 448>
-VStem: 0 128<96 448> 320 128<-64 32 96 448>
+Flags: W
+HStem: -192 64<0 229.311> 0 64<160.623 287.914> 428 20G<0 128 320 448>
+VStem: 0 128<111.24 448> 320 128<-70.5 32 98.2971 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -2613,6 +2701,7 @@ SplineSet
  320 32 288 0 224 0 c 1
  96 0 0 64 0 224 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: z
@@ -2620,7 +2709,7 @@ Encoding: 122 122 89
 GlifName: z
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 128<352 448> 0 64<96 288> 320 128<0 96> 384 64<160 288>
 DStem2: 0 96 96 64 0.707107 0.707107<45.2548 407.294>
 LayerCount: 2
@@ -2642,6 +2731,7 @@ SplineSet
  160 384 l 1x50
  96 320 l 1x20
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -2649,9 +2739,9 @@ Encoding: 123 123 90
 GlifName: braceleft
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<352 448> 320 64<64 192> 576 64<320 448>
-VStem: 192 128<96 288 416 576>
+Flags: W
+HStem: 0 64<340.935 448> 320 64<64 192> 576 64<334.546 448>
+VStem: 192 128<84.8402 288 416 561.114>
 LayerCount: 2
 Fore
 SplineSet
@@ -2670,6 +2760,7 @@ SplineSet
  64 320 l 1
  64 384 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bar
@@ -2677,8 +2768,8 @@ Encoding: 124 124 91
 GlifName: bar
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320> 608 32G<192 320>
+Flags: W
+HStem: 0 21G<192 320> 620 20G<192 320>
 VStem: 192 128<0 640>
 LayerCount: 2
 Fore
@@ -2689,6 +2780,7 @@ SplineSet
  192 0 l 1
  192 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: braceright
@@ -2696,9 +2788,9 @@ Encoding: 125 125 92
 GlifName: braceright
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<64 160> 320 64<320 448> 576 64<64 192>
-VStem: 192 128<96 288 416 576>
+Flags: W
+HStem: 0 64<64 171.065> 320 64<320 448> 576 64<64 177.454>
+VStem: 192 128<84.8402 288 416 561.114>
 LayerCount: 2
 Fore
 SplineSet
@@ -2717,6 +2809,7 @@ SplineSet
  256 640 320 640 320 384 c 9
  448 384 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asciitilde
@@ -2724,8 +2817,8 @@ Encoding: 126 126 93
 GlifName: asciitilde
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 576 64<0 64 256 320> 640 64<128 192 384 448>
+Flags: W
+HStem: 576 64<0 64 252.496 324.229> 640 64<123.771 195.504 384 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -2741,6 +2834,7 @@ SplineSet
  160 576 224 640 160 640 c 1x40
  96 640 160 576 0 576 c 1x80
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ccedilla
@@ -2748,9 +2842,9 @@ Encoding: 199 199 94
 GlifName: C_cedilla
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -128 64<64 160> 448 32G<384 448> 576 64<192 320>
-VStem: 0 128<160 480> 384 64<128 192 448 512>
+Flags: W
+HStem: -128 64<64 171.5> 448 21G<384 448> 576 64<197.221 321.64>
+VStem: 0 128<165.448 464.477> 384 64<125.97 192 448 513.25>
 LayerCount: 2
 Back
 SplineSet
@@ -2784,6 +2878,7 @@ SplineSet
  128 128 192 64 256 64 c 0
  320 64 384 128 384 192 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -2791,9 +2886,9 @@ Encoding: 252 252 95
 GlifName: udieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 416 32G<0 128 256 384> 576 64<0 128 256 384>
-VStem: 0 128<96 448 576 640> 256 128<96 448 576 640>
+Flags: W
+HStem: 0 64<155.795 230.216> 428 20G<0 128 256 384> 576 64<1.4375 126.562 257.438 382.562>
+VStem: 0 128<96.3773 448 579.296 636.704> 256 128<91.6855 448 579.296 636.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -2823,6 +2918,7 @@ SplineSet
  352 640 384 640 384 608 c 0
  384 576 352 576 320 576 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eacute
@@ -2830,9 +2926,9 @@ Encoding: 233 233 96
 GlifName: eacute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 256 64<128 320> 384 64<160 288>
-VStem: 0 128<96 256 320 352>
+Flags: W
+HStem: 0 64<161.096 299.027> 256 64<128 320> 384 64<149.47 299.027>
+VStem: 0 128<101.148 256 320 351.623>
 LayerCount: 2
 Fore
 SplineSet
@@ -2858,6 +2954,7 @@ SplineSet
  128 512 l 1
  256 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: acircumflex
@@ -2865,9 +2962,9 @@ Encoding: 226 226 97
 GlifName: acircumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 256 64<160 224> 384 64<64 224>
-VStem: 0 128<96 224> 256 128<96 224>
+Flags: W
+HStem: 0 64<150.452 234.432> 256 64<151.767 234.863> 384 64<64 209.578>
+VStem: 0 128<86.1997 233.8> 256 128<85.0938 227.883>
 LayerCount: 2
 Fore
 SplineSet
@@ -2899,6 +2996,7 @@ SplineSet
  64 512 l 1
  192 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: adieresis
@@ -2906,9 +3004,9 @@ Encoding: 228 228 98
 GlifName: adieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 256 64<160 224> 384 64<64 224> 576 64<0 128 256 384>
-VStem: 0 128<96 224 576 640> 256 128<96 224 576 640>
+Flags: W
+HStem: 0 64<150.452 234.432> 256 64<151.767 234.863> 384 64<64 209.578> 576 64<1.4375 126.562 257.438 382.562>
+VStem: 0 128<86.1997 233.8 579.296 636.704> 256 128<85.0938 227.883 579.296 636.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -2942,6 +3040,7 @@ SplineSet
  352 640 384 640 384 608 c 0
  384 576 352 576 320 576 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: agrave
@@ -2949,9 +3048,9 @@ Encoding: 224 224 99
 GlifName: agrave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 256 64<160 224> 384 64<64 224>
-VStem: 0 128<96 224> 256 128<96 224>
+Flags: W
+HStem: 0 64<150.452 234.432> 256 64<151.767 234.863> 384 64<64 209.578>
+VStem: 0 128<86.1997 233.8> 256 128<85.0938 227.883>
 LayerCount: 2
 Fore
 SplineSet
@@ -2981,6 +3080,7 @@ SplineSet
  192 704 l 25
  320 512 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: aring
@@ -2988,9 +3088,9 @@ Encoding: 229 229 100
 GlifName: aring
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 256 64<160 224> 384 64<64 224> 512 64<192 256> 640 64<192 256>
-VStem: 0 128<96 224> 64 128<576 640> 256 128<96 224 576 640>
+Flags: W
+HStem: 0 64<150.452 234.432> 256 64<151.767 234.863> 384 64<64 209.578> 512 64<192.104 255.896> 640 64<192.104 255.896>
+VStem: 0 128<86.1997 233.8> 64 128<576.949 639.051> 256 128<85.0938 227.883 576.949 639.051>
 LayerCount: 2
 Fore
 SplineSet
@@ -3024,6 +3124,7 @@ SplineSet
  384 544 288 512 224 512 c 0
  160 512 64 544 64 608 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -3031,9 +3132,9 @@ Encoding: 231 231 101
 GlifName: ccedilla
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -128 64<64 192> 0 64<160 224> 384 64<128 320>
-VStem: 0 128<64 384> 320 128<64 128 320 384>
+Flags: W
+HStem: -128 64<64 195.186> 0 64<145.23 224> 384 64<142.07 310.505>
+VStem: 0 128<73.294 374.706> 320 128<75.4238 128 320 372.576>
 LayerCount: 2
 Fore
 SplineSet
@@ -3055,6 +3156,7 @@ SplineSet
  128 64 128 64 224 64 c 0
  288 64 320 64 320 128 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -3062,9 +3164,9 @@ Encoding: 234 234 102
 GlifName: ecircumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 256 64<128 320> 384 64<160 288>
-VStem: 0 128<96 256 320 352>
+Flags: W
+HStem: 0 64<161.096 299.027> 256 64<128 320> 384 64<149.47 299.027>
+VStem: 0 128<101.148 256 320 351.623>
 LayerCount: 2
 Fore
 SplineSet
@@ -3092,6 +3194,7 @@ SplineSet
  64 512 l 1
  192 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -3099,9 +3202,9 @@ Encoding: 235 235 103
 GlifName: edieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 256 64<128 320> 384 64<160 288> 576 64<0 128 320 448>
-VStem: 0 128<96 256 320 352 576 640> 320 128<96 128 320 352 576 640>
+Flags: W
+HStem: 0 64<161.096 299.027> 256 64<128 320> 384 64<149.47 299.027> 576 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<101.148 256 320 351.623 579.296 636.704> 320 128<87.5654 128 320 360.435 579.296 636.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -3131,6 +3234,7 @@ SplineSet
  416 640 448 640 448 608 c 0
  448 576 416 576 384 576 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: egrave
@@ -3138,9 +3242,9 @@ Encoding: 232 232 104
 GlifName: egrave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 256 64<128 320> 384 64<160 288>
-VStem: 0 128<96 256 320 352>
+Flags: W
+HStem: 0 64<161.096 299.027> 256 64<128 320> 384 64<149.47 299.027>
+VStem: 0 128<101.148 256 320 351.623>
 LayerCount: 2
 Fore
 SplineSet
@@ -3166,6 +3270,7 @@ SplineSet
  192 704 l 25
  320 512 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -3173,9 +3278,9 @@ Encoding: 239 239 105
 GlifName: idieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 416 32G<128 320> 576 64<64 192 320 448>
-VStem: 64 128<576 640> 192 128<64 384> 320 128<576 640>
+Flags: W
+HStem: 0 21G<128 384> 428 20G<128 320> 576 64<65.4375 190.562 321.438 446.562>
+VStem: 64 128<579.296 636.704> 192 128<64 384> 320 128<579.296 636.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -3201,6 +3306,7 @@ SplineSet
  160 640 192 640 192 608 c 0xf0
  192 576 160 576 128 576 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: icircumflex
@@ -3208,8 +3314,8 @@ Encoding: 238 238 106
 GlifName: icircumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 416 32G<128 320>
+Flags: W
+HStem: 0 21G<128 384> 428 20G<128 320>
 VStem: 192 128<64 384>
 LayerCount: 2
 Fore
@@ -3234,6 +3340,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: igrave
@@ -3241,8 +3348,8 @@ Encoding: 236 236 107
 GlifName: igrave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 416 32G<128 320>
+Flags: W
+HStem: 0 21G<128 384> 428 20G<128 320>
 VStem: 192 128<64 384>
 LayerCount: 2
 Fore
@@ -3265,6 +3372,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Adieresis
@@ -3272,9 +3380,9 @@ Encoding: 196 196 108
 GlifName: A_dieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 192 64<128 320> 640 64<0 128 320 448>
-VStem: 0 128<0 192 256 352 640 704> 320 128<0 192 256 352 640 704>
+Flags: W
+HStem: 0 21G<0 128 320 448> 192 64<128 320> 640 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<0 192 256 352 643.296 700.704> 320 128<0 192 256 352 643.296 700.704>
 DStem2: 0 352 128 352 0.707107 0.707107<90.5097 226.274> 224 576 224 448 0.707107 -0.707107<90.5097 226.274>
 LayerCount: 2
 Fore
@@ -3306,6 +3414,7 @@ SplineSet
  416 704 448 704 448 672 c 0
  448 640 416 640 384 640 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Aring
@@ -3313,9 +3422,9 @@ Encoding: 197 197 109
 GlifName: A_ring
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 192 64<128 320> 704 64<192 256>
-VStem: 0 128<0 192 256 352> 64 128<640 704> 256 128<640 704> 320 128<0 192 256 352>
+Flags: W
+HStem: 0 21G<0 128 320 448> 192 64<128 320> 704 64<192.104 255.896>
+VStem: 0 128<0 192 256 352> 64 128<640.949 703.051> 256 128<640.949 703.051> 320 128<0 192 256 352>
 DStem2: 0 352 128 352 0.707107 0.707107<90.5097 226.274> 224 576 224 448 0.707107 -0.707107<90.5097 226.274>
 LayerCount: 2
 Fore
@@ -3349,6 +3458,7 @@ SplineSet
  0 352 l 1
  224 576 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -3356,8 +3466,8 @@ Encoding: 201 201 110
 GlifName: E_acute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 32G<192 320>
+Flags: W
+HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 21G<192 308>
 VStem: 64 128<64 256 320 512>
 LayerCount: 2
 Fore
@@ -3394,6 +3504,7 @@ SplineSet
  448 0 l 1
  0 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ae
@@ -3401,9 +3512,9 @@ Encoding: 230 230 111
 GlifName: ae
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 192 352 416> 384 64<32 96 256 352>
-VStem: 0 128<64 192> 128 128<256 352> 192 128<96 192> 320 128<256 384>
+Flags: W
+HStem: 0 64<131.377 188.581 346.116 420.906> 384 64<27.0938 105.312 259.648 350.352>
+VStem: 0 128<66.4688 189.531> 128 128<257.438 361.219> 192 128<86.6881 190.562> 320 128<258.349 381.651>
 LayerCount: 2
 Fore
 SplineSet
@@ -3432,6 +3543,7 @@ SplineSet
  320 352 320 384 288 384 c 0
  256 384 256 352 256 320 c 1xd4
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ocircumflex
@@ -3439,9 +3551,9 @@ Encoding: 244 244 112
 GlifName: ocircumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 384 64<160 288>
-VStem: 0 128<96 352> 320 128<96 352>
+Flags: W
+HStem: 0 64<161.096 286.904> 384 64<161.096 286.904>
+VStem: 0 128<99.7228 348.277> 320 128<99.7228 348.277>
 LayerCount: 2
 Fore
 SplineSet
@@ -3464,6 +3576,7 @@ SplineSet
  64 512 l 1
  192 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: odieresis
@@ -3471,9 +3584,9 @@ Encoding: 246 246 113
 GlifName: odieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 384 64<160 288> 576 64<0 128 320 448>
-VStem: 0 128<96 352 576 640> 320 128<96 352 576 640>
+Flags: W
+HStem: 0 64<161.096 286.904> 384 64<161.096 286.904> 576 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<99.7228 348.277 579.296 636.704> 320 128<99.7228 348.277 579.296 636.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -3498,6 +3611,7 @@ SplineSet
  416 640 448 640 448 608 c 0
  448 576 416 576 384 576 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ograve
@@ -3505,9 +3619,9 @@ Encoding: 242 242 114
 GlifName: ograve
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 384 64<160 288>
-VStem: 0 128<96 352> 320 128<96 352>
+Flags: W
+HStem: 0 64<161.096 286.904> 384 64<161.096 286.904>
+VStem: 0 128<99.7228 348.277> 320 128<99.7228 348.277>
 LayerCount: 2
 Fore
 SplineSet
@@ -3528,6 +3642,7 @@ SplineSet
  448 64 384 0 224 0 c 0
  64 0 0 64 0 224 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ucircumflex
@@ -3535,9 +3650,9 @@ Encoding: 251 251 115
 GlifName: ucircumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 416 32G<0 128 256 384>
-VStem: 0 128<96 448> 256 128<96 448>
+Flags: W
+HStem: 0 64<155.795 230.216> 428 20G<0 128 256 384>
+VStem: 0 128<96.3773 448> 256 128<91.6855 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -3565,6 +3680,7 @@ SplineSet
  0 512 l 1
  128 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ugrave
@@ -3572,9 +3688,9 @@ Encoding: 249 249 116
 GlifName: ugrave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 416 32G<0 128 256 384>
-VStem: 0 128<96 448> 256 128<96 448>
+Flags: W
+HStem: 0 64<155.795 230.216> 428 20G<0 128 256 384>
+VStem: 0 128<96.3773 448> 256 128<91.6855 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -3600,6 +3716,7 @@ SplineSet
  192 704 l 25
  320 512 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ydieresis
@@ -3607,9 +3724,9 @@ Encoding: 255 255 117
 GlifName: ydieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 64<64 256> 0 64<160 288> 416 32G<0 128 320 448> 576 64<0 128 320 448>
-VStem: 0 128<96 448 576 640> 320 128<-64 32 96 448 576 640>
+Flags: W
+HStem: -192 64<64 263.573> 0 64<160.623 287.914> 428 20G<0 128 320 448> 576 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<111.24 448 579.296 636.704> 320 128<-75.7794 32 98.2971 448 579.296 636.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -3638,6 +3755,7 @@ SplineSet
  416 640 448 640 448 608 c 0
  448 576 416 576 384 576 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -3645,9 +3763,9 @@ Encoding: 214 214 118
 GlifName: O_dieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 512 64<160 288> 640 64<0 128 320 448>
-VStem: 0 128<96 480 640 704> 320 128<96 480 640 704>
+Flags: W
+HStem: 0 64<158.183 289.817> 512 64<158.183 289.817> 640 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<106.672 469.328 643.296 700.704> 320 128<106.672 469.328 643.296 700.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -3672,6 +3790,7 @@ SplineSet
  416 704 448 704 448 672 c 0
  448 640 416 640 384 640 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Udieresis
@@ -3679,9 +3798,9 @@ Encoding: 220 220 119
 GlifName: U_dieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 640 64<0 128 320 448>
-VStem: 0 128<96 576 640 704> 320 128<96 576 640 704>
+Flags: W
+HStem: 0 64<160.651 287.349> 640 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<111.274 576 643.296 700.704> 320 128<111.274 576 643.296 700.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -3707,6 +3826,7 @@ SplineSet
  416 704 448 704 448 672 c 0
  448 640 416 640 384 640 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: florin
@@ -3714,9 +3834,9 @@ Encoding: 256 402 120
 GlifName: florin
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 192> 320 64<64 192 320 448> 640 64<320 384>
-VStem: 192 128<192 320 384 608>
+Flags: W
+HStem: 0 64<136.175 178.35> 320 64<64 192 320 448> 640 64<334.063 381.718>
+VStem: 192 128<88.9048 320 384 615.095>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -3740,6 +3860,7 @@ SplineSet
  192 64 192 192 192 192 c 0
  192 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: aacute
@@ -3747,9 +3868,9 @@ Encoding: 225 225 121
 GlifName: aacute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 256 64<160 224> 384 64<64 224>
-VStem: 0 128<96 224> 256 128<96 224>
+Flags: W
+HStem: 0 64<150.452 234.432> 256 64<151.767 234.863> 384 64<64 209.578>
+VStem: 0 128<86.1997 233.8> 256 128<85.0938 227.883>
 LayerCount: 2
 Fore
 SplineSet
@@ -3779,6 +3900,7 @@ SplineSet
  64 512 l 1
  192 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: oacute
@@ -3786,9 +3908,9 @@ Encoding: 243 243 122
 GlifName: oacute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 384 64<160 288>
-VStem: 0 128<96 352> 320 128<96 352>
+Flags: W
+HStem: 0 64<161.096 286.904> 384 64<161.096 286.904>
+VStem: 0 128<99.7228 348.277> 320 128<99.7228 348.277>
 LayerCount: 2
 Fore
 SplineSet
@@ -3809,6 +3931,7 @@ SplineSet
  64 512 l 1
  192 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uacute
@@ -3816,9 +3939,9 @@ Encoding: 250 250 123
 GlifName: uacute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 416 32G<0 128 256 384>
-VStem: 0 128<96 448> 256 128<96 448>
+Flags: W
+HStem: 0 64<155.795 230.216> 428 20G<0 128 256 384>
+VStem: 0 128<96.3773 448> 256 128<91.6855 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -3844,6 +3967,7 @@ SplineSet
  64 512 l 25
  192 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ntilde
@@ -3851,9 +3975,9 @@ Encoding: 241 241 124
 GlifName: ntilde
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<64 192 320 448> 384 64<224 288> 512 64<0 64 256 320> 576 64<128 192 384 448>
-VStem: 64 128<0 352> 320 128<0 352>
+Flags: W
+HStem: 0 21G<64 192 320 448> 384 64<213.696 297.548> 512 64<0 64 252.496 324.229> 576 64<123.771 195.504 384 448>
+VStem: 64 128<0 362.906> 320 128<0 360.694>
 LayerCount: 2
 Fore
 SplineSet
@@ -3884,6 +4008,7 @@ SplineSet
  64 0 l 25
  64 384 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ntilde
@@ -3891,8 +4016,8 @@ Encoding: 209 209 125
 GlifName: N_tilde
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 640 64<0 64 256 320> 704 64<128 192 384 448>
+Flags: W
+HStem: 0 21G<0 128 320 448> 640 64<0 64 252.496 324.229> 704 64<123.771 195.504 384 448>
 VStem: 0 128<0 352> 320 128<0 160 352 576>
 LayerCount: 2
 Fore
@@ -3921,6 +4046,7 @@ SplineSet
  128 352 l 1
  128 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: iacute
@@ -3928,8 +4054,8 @@ Encoding: 237 237 126
 GlifName: iacute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 416 32G<128 320>
+Flags: W
+HStem: 0 21G<128 384> 428 20G<128 320>
 VStem: 192 128<64 384>
 LayerCount: 2
 Fore
@@ -3952,6 +4078,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: AE
@@ -3959,8 +4086,8 @@ Encoding: 198 198 127
 GlifName: A_E_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 256 448> 320 64<128 256 384 448> 576 64<224 256>
+Flags: W
+HStem: 0 21G<0 128 256 448> 320 64<128 256 384 448> 576 64<224 256>
 VStem: 0 128<0 320 384 480> 256 128<64 320 384 576>
 DStem2: 0 480 128 480 0.707107 0.707107<90.5097 226.274>
 LayerCount: 2
@@ -3991,6 +4118,7 @@ SplineSet
  0 480 l 25
  160 640 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: cent
@@ -3998,9 +4126,9 @@ Encoding: 162 162 128
 GlifName: cent
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 128 64<160 192> 448 64<160 192>
-VStem: 0 128<224 416> 192 128<0 128 512 640> 320 128<192 256 384 448>
+Flags: W
+HStem: 128 64<147 192> 448 64<147 192>
+VStem: 0 128<213.08 426.92> 192 128<0 128 512 640> 320 128<206.812 256 384 433.188>
 LayerCount: 2
 Fore
 SplineSet
@@ -4022,6 +4150,7 @@ SplineSet
  448 256 l 1xe8
  448 224 384 128 320 128 c 1xf0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: peseta
@@ -4029,9 +4158,9 @@ Encoding: 257 8359 129
 GlifName: peseta
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<416 448> 256 64<192 256 384 448> 416 32G<320 384> 448 64<128 256> 640 64<128 256>
-VStem: 0 128<0 448 512 640> 256 128<96 256 320 352>
+Flags: W
+HStem: 0 64<403 448> 256 64<192 256 384 448> 428 20G<332 384> 448 64<128 241.518> 640 64<128 241.518>
+VStem: 0 128<0 448 512 640> 256 128<83.824 256 320 352 526.199 625.801>
 LayerCount: 2
 Fore
 SplineSet
@@ -4066,6 +4195,7 @@ SplineSet
  128 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: yen
@@ -4073,8 +4203,8 @@ Encoding: 165 165 130
 GlifName: yen
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320> 128 64<64 192 320 448> 256 64<64 192 320 448>
+Flags: W
+HStem: 0 21G<192 320> 128 64<64 192 320 448> 256 64<64 192 320 448>
 VStem: 64 128<512 576> 192 128<0 128 192 256> 320 128<512 576>
 LayerCount: 2
 Fore
@@ -4108,6 +4238,7 @@ SplineSet
  64 512 l 1
  64 576 l 1xf0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sterling
@@ -4115,13 +4246,13 @@ Encoding: 163 163 131
 GlifName: sterling
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 320> 384 64<0 64 192 256> 640 64<192 256>
-VStem: 64 128<128 384 448 608> 320 128<64 128>
+Flags: W
+HStem: 0 64<200.149 310.726> 384 64<0 64 192 256> 640 64<201.407 265.678>
+VStem: 64 128<128 384 448 613.925> 320 128<70.6349 128> 320 64<512 580.625>
 LayerCount: 2
 Fore
 SplineSet
-64 0 m 1
+64 0 m 1xf8
  32 0 0 32 0 64 c 1
  0 96 32 128 64 128 c 1
  64 384 l 1
@@ -4130,7 +4261,7 @@ SplineSet
  64 448 l 17
  64 608 96 704 224 704 c 1
  384 704 384 512 384 512 c 1
- 320 512 l 1
+ 320 512 l 1xf4
  320 576 256 640 224 640 c 1
  192 640 192 576 192 448 c 9
  256 448 l 1
@@ -4142,8 +4273,9 @@ SplineSet
  448 128 l 1
  448 32 320 0 256 0 c 1
  192 0 128 32 128 64 c 1
- 128 32 96 0 64 0 c 1
+ 128 32 96 0 64 0 c 1xf8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ordfeminine
@@ -4151,9 +4283,9 @@ Encoding: 170 170 132
 GlifName: ordfeminine
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<64 448> 384 64<192 256> 576 64<192 256>
-VStem: 64 128<448 576> 256 128<448 576>
+Flags: W
+HStem: 256 64<64 448> 384 64<196.583 252.442> 576 64<196.583 252.442>
+VStem: 64 128<450.349 573.651> 256 128<449.438 574.562>
 LayerCount: 2
 Fore
 SplineSet
@@ -4180,6 +4312,7 @@ SplineSet
  64 256 l 1
  64 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ordmasculine
@@ -4187,9 +4320,9 @@ Encoding: 186 186 133
 GlifName: ordmasculine
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<64 384> 384 64<192 256> 576 64<192 256>
-VStem: 64 128<448 576> 256 128<448 576>
+Flags: W
+HStem: 256 64<64 384> 384 64<196.583 251.417> 576 64<196.583 251.417>
+VStem: 64 128<450.349 573.651> 256 128<450.349 573.651>
 LayerCount: 2
 Fore
 SplineSet
@@ -4209,6 +4342,7 @@ SplineSet
  64 256 l 1
  64 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: questiondown
@@ -4216,9 +4350,9 @@ Encoding: 191 191 134
 GlifName: questiondown
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 416 32G<192 192> 512 128<160 224>
-VStem: 0 128<96 256> 128 128<320 416 544 608> 320 128<96 160>
+Flags: W
+HStem: 0 64<148.778 298.53> 428 20G<176 208> 512 128<145.798 238.202>
+VStem: 0 128<86.7266 243> 128 128<333 430.202 529.798 622.202> 320 128<86.7645 174.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -4239,6 +4373,7 @@ SplineSet
  128 608 160 640 192 640 c 0
  224 640 256 608 256 576 c 0xec
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: revlogicalnot
@@ -4246,7 +4381,7 @@ Encoding: 258 8976 135
 GlifName: revlogicalnot
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 320 64<128 448>
 VStem: 0 128<64 320>
 LayerCount: 2
@@ -4260,6 +4395,7 @@ SplineSet
  128 320 l 25
  128 64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: logicalnot
@@ -4267,7 +4403,7 @@ Encoding: 172 172 136
 GlifName: logicalnot
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 320 64<0 320>
 VStem: 320 128<64 320>
 LayerCount: 2
@@ -4281,6 +4417,7 @@ SplineSet
  448 64 l 1
  320 64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: onehalf
@@ -4288,9 +4425,9 @@ Encoding: 189 189 137
 GlifName: onehalf
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -128 64<288 448> 128 64<192 320>
-VStem: 64 128<384 576> 320 128<64 128>
+Flags: W
+HStem: -128 64<288 448> 128 64<192 316.542>
+VStem: 64 128<384 576> 320 128<60 119.043>
 DStem2: 0 160 32 64 0.707107 0.707107<0 543.058> 128 -96 288 -64 0.707107 0.707107<135.765 270.435>
 LayerCount: 2
 Fore
@@ -4324,6 +4461,7 @@ SplineSet
  96 704 l 25
  192 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: onequarter
@@ -4331,7 +4469,7 @@ Encoding: 188 188 138
 GlifName: onequarter
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<288 320 448 512>
 VStem: 64 128<384 576> 320 128<-128 0> 384 64<64 160>
 DStem2: 0 160 32 64 0.707107 0.707107<0 543.058> 128 32 288 64 0.707107 0.707107<135.765 271.529>
@@ -4370,6 +4508,7 @@ SplineSet
  96 704 l 25
  192 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: exclamdown
@@ -4377,9 +4516,9 @@ Encoding: 161 161 139
 GlifName: exclamdown
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<224 288> 416 32G<224 288> 512 128<224 288>
-VStem: 128 256<64 256> 192 128<544 608>
+Flags: W
+HStem: 0 21G<224 288> 428 20G<224 288> 512 128<209.798 302.202>
+VStem: 128 256<61.9705 250.597> 192 128<529.798 622.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -4394,6 +4533,7 @@ SplineSet
  320 544 288 512 256 512 c 3
  224 512 192 544 192 576 c 3xe8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -4401,7 +4541,7 @@ Encoding: 171 171 140
 GlifName: guillemotleft
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 128 320
 DStem2: 128 288 0 288 0.707107 -0.707107<0 135.765> 0 288 128 288 0.707107 0.707107<90.5097 226.274> 320 288 192 288 0.707107 -0.707107<0 135.765> 192 288 320 288 0.707107 0.707107<90.5097 226.274>
 LayerCount: 2
@@ -4426,6 +4566,7 @@ SplineSet
  160 128 l 1
  0 288 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: guillemotright
@@ -4433,7 +4574,7 @@ Encoding: 187 187 141
 GlifName: guillemotright
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 128 320
 DStem2: 96 448 0 416 0.707107 -0.707107<0 135.765> 0 160 96 128 0.707107 0.707107<45.2548 181.019> 288 448 192 416 0.707107 -0.707107<0 135.765> 192 160 288 128 0.707107 0.707107<45.2548 181.019>
 LayerCount: 2
@@ -4458,6 +4599,7 @@ SplineSet
  288 448 l 1
  448 288 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ltshade
@@ -4465,7 +4607,7 @@ Encoding: 259 9617 142
 GlifName: ltshade
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -256 64<64 128 320 384> -192 64<192 256 448 512> -128 64<64 128 320 384> -64 64<192 256 448 512> 0 64<64 128 320 384> 64 64<192 256 448 512> 128 64<64 128 320 384> 192 64<192 256 448 512> 256 64<64 128 320 384> 320 64<192 256 448 512> 384 64<64 128 320 384> 448 64<192 256 448 512> 512 64<64 128 320 384> 576 64<192 256 448 512> 640 64<64 128 320 384> 704 64<192 256 448 512>
 VStem: 64 64<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 192 64<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768> 320 64<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 448 64<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768>
 LayerCount: 2
@@ -4632,6 +4774,7 @@ SplineSet
  64 0 l 1
  64 64 l 1x0800f0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: shade
@@ -4639,7 +4782,7 @@ Encoding: 260 9618 143
 GlifName: shade
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -256 64<0 64 128 192 256 320 384 448> -192 64<64 128 192 256 320 384 448 512> -128 64<0 64 128 192 256 320 384 448> -64 64<64 128 192 256 320 384 448 512> 0 64<0 64 128 192 256 320 384 448> 64 64<64 128 192 256 320 384 448 512> 128 64<0 64 128 192 256 320 384 448> 192 64<64 128 192 256 320 384 448 512> 256 64<0 64 128 192 256 320 384 448> 320 64<64 128 192 256 320 384 448 512> 384 64<0 64 128 192 256 320 384 448> 448 64<64 128 192 256 320 384 448 512> 512 64<0 64 128 192 256 320 384 448> 576 64<64 128 192 256 320 384 448 512> 640 64<0 64 128 192 256 320 384 448> 704 64<64 128 192 256 320 384 448 512>
 VStem: 0 64<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 64 64<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768> 128 64<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 192 64<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768> 256 64<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 320 64<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768> 384 64<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 448 64<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768>
 LayerCount: 2
@@ -4966,6 +5109,7 @@ SplineSet
  64 704 l 1x000280
  64 768 l 1x000140
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: dkshade
@@ -4973,7 +5117,7 @@ Encoding: 261 9619 144
 GlifName: dkshade
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -256 64<128 192 384 448> -192 64<0 64 256 320> -128 64<128 192 384 448> -64 64<0 64 256 320> 0 64<128 192 384 448> 64 64<0 64 256 320> 128 64<128 192 384 448> 192 64<0 64 256 320> 256 64<128 192 384 448> 320 64<0 64 256 320> 384 64<128 192 384 448> 448 64<0 64 256 320> 512 64<128 192 384 448> 576 64<0 64 256 320> 640 64<128 192 384 448> 704 64<0 64 256 320>
 VStem: 0 128<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768> 64 192<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 192 192<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768> 320 192<-256 -192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704> 448 64<-192 -128 -64 0 64 128 192 256 320 384 448 512 576 640 704 768>
 LayerCount: 2
@@ -5132,6 +5276,7 @@ SplineSet
  64 -64 l 1x500040
  0 -64 l 1x500080
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF110000
@@ -5139,7 +5284,7 @@ Encoding: 262 9474 145
 GlifName: S_F_110000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 VStem: 192 128<-256 768>
 LayerCount: 2
 Fore
@@ -5150,6 +5295,7 @@ SplineSet
  192 -256 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF090000
@@ -5157,7 +5303,7 @@ Encoding: 263 9508 146
 GlifName: S_F_090000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192>
 VStem: 192 128<-256 256 320 768>
 LayerCount: 2
@@ -5173,6 +5319,7 @@ SplineSet
  192 320 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF190000
@@ -5180,7 +5327,7 @@ Encoding: 264 9569 147
 GlifName: S_F_190000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192> 384 64<0 192>
 VStem: 192 128<-256 256 320 384 448 768>
 LayerCount: 2
@@ -5200,6 +5347,7 @@ SplineSet
  192 448 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF200000
@@ -5207,7 +5355,7 @@ Encoding: 265 9570 148
 GlifName: S_F_200000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128>
 VStem: 128 128<-256 256 320 768> 320 128<-256 768>
 LayerCount: 2
@@ -5228,6 +5376,7 @@ SplineSet
  128 320 l 1
  128 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF210000
@@ -5235,7 +5384,7 @@ Encoding: 266 9558 149
 GlifName: S_F_210000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128 256 320>
 VStem: 128 128<-256 256> 320 128<-256 256>
 LayerCount: 2
@@ -5253,6 +5402,7 @@ SplineSet
  256 256 l 25
  256 -256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF220000
@@ -5260,7 +5410,7 @@ Encoding: 267 9557 150
 GlifName: S_F_220000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192> 384 64<0 192>
 VStem: 192 128<-256 256 320 384>
 LayerCount: 2
@@ -5278,6 +5428,7 @@ SplineSet
  0 448 l 1
  320 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF230000
@@ -5285,7 +5436,7 @@ Encoding: 268 9571 151
 GlifName: S_F_230000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128> 384 64<0 128>
 VStem: 128 128<-256 256 448 768> 320 128<-256 768>
 LayerCount: 2
@@ -5311,6 +5462,7 @@ SplineSet
  256 320 l 1
  256 -256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF240000
@@ -5318,7 +5470,7 @@ Encoding: 269 9553 152
 GlifName: S_F_240000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 VStem: 128 128<-256 768> 320 128<-256 768>
 LayerCount: 2
 Fore
@@ -5334,6 +5486,7 @@ SplineSet
  320 -256 l 1
  320 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF250000
@@ -5341,7 +5494,7 @@ Encoding: 270 9559 153
 GlifName: S_F_250000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128> 384 64<0 320>
 VStem: 128 128<-256 256> 320 128<-256 384>
 LayerCount: 2
@@ -5362,6 +5515,7 @@ SplineSet
  320 -256 l 9
  320 384 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF260000
@@ -5369,7 +5523,7 @@ Encoding: 271 9565 154
 GlifName: S_F_260000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 320> 384 64<0 128>
 VStem: 128 128<448 768> 320 128<320 768>
 LayerCount: 2
@@ -5390,6 +5544,7 @@ SplineSet
  0 320 l 1
  320 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF440000
@@ -5397,7 +5552,7 @@ Encoding: 272 9580 155
 GlifName: S_F_440000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128 448 512> 384 64<0 128 448 512>
 VStem: 128 128<-256 256 448 768> 320 192<256 320 384 448> 320 128<-256 256 448 768>
 LayerCount: 2
@@ -5432,6 +5587,7 @@ SplineSet
  256 768 l 1
  256 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF270000
@@ -5439,7 +5595,7 @@ Encoding: 273 9564 156
 GlifName: S_F_270000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128 256 320>
 VStem: 128 128<320 768> 320 128<320 768>
 LayerCount: 2
@@ -5457,6 +5613,7 @@ SplineSet
  320 320 l 25
  320 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF280000
@@ -5464,7 +5621,7 @@ Encoding: 274 9563 157
 GlifName: S_F_280000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192> 384 64<0 192>
 VStem: 192 128<320 384 448 768>
 LayerCount: 2
@@ -5482,6 +5639,7 @@ SplineSet
  192 384 l 25
  0 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF030000
@@ -5489,7 +5647,7 @@ Encoding: 275 9488 158
 GlifName: S_F_030000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192>
 VStem: 192 128<-256 256>
 LayerCount: 2
@@ -5503,6 +5661,7 @@ SplineSet
  0 320 l 1
  320 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF450000
@@ -5510,7 +5669,7 @@ Encoding: 276 9575 159
 GlifName: S_F_450000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 512> 384 64<0 192 320 512>
 VStem: 192 128<448 768>
 LayerCount: 2
@@ -5531,6 +5690,7 @@ SplineSet
  192 448 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF430000
@@ -5538,7 +5698,7 @@ Encoding: 277 9552 160
 GlifName: S_F_430000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 512> 384 64<0 512>
 LayerCount: 2
 Fore
@@ -5554,6 +5714,7 @@ SplineSet
  0 320 l 1
  512 320 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF420000
@@ -5561,7 +5722,7 @@ Encoding: 278 9568 161
 GlifName: S_F_420000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<448 512> 384 64<448 512>
 VStem: 128 128<-256 768> 320 192<256 320 384 448> 320 128<-256 256 448 768>
 LayerCount: 2
@@ -5587,6 +5748,7 @@ SplineSet
  128 -256 l 1
  128 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF410000
@@ -5594,7 +5756,7 @@ Encoding: 279 9574 162
 GlifName: S_F_410000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128 448 512> 384 64<0 512>
 VStem: 128 128<-256 256> 320 128<-256 256>
 LayerCount: 2
@@ -5620,6 +5782,7 @@ SplineSet
  512 384 l 25
  0 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF400000
@@ -5627,7 +5790,7 @@ Encoding: 280 9577 163
 GlifName: S_F_400000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 512> 384 64<0 128 448 512>
 VStem: 128 128<448 768> 320 128<448 768>
 LayerCount: 2
@@ -5653,6 +5816,7 @@ SplineSet
  256 768 l 1
  256 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF390000
@@ -5660,7 +5824,7 @@ Encoding: 281 9556 164
 GlifName: S_F_390000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<448 512> 384 64<256 512>
 VStem: 128 128<-256 384> 320 128<-256 256>
 LayerCount: 2
@@ -5681,6 +5845,7 @@ SplineSet
  256 384 l 25
  256 -256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF380000
@@ -5688,7 +5853,7 @@ Encoding: 282 9562 165
 GlifName: S_F_380000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<256 512> 384 64<448 512>
 VStem: 128 128<320 768> 320 128<448 768>
 LayerCount: 2
@@ -5709,6 +5874,7 @@ SplineSet
  128 768 l 17
  256 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF370000
@@ -5716,7 +5882,7 @@ Encoding: 283 9567 166
 GlifName: S_F_370000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<448 512>
 VStem: 128 128<-256 768> 320 128<-256 256 320 768>
 LayerCount: 2
@@ -5737,6 +5903,7 @@ SplineSet
  256 768 l 1
  256 -256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF360000
@@ -5744,7 +5911,7 @@ Encoding: 284 9566 167
 GlifName: S_F_360000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<320 512> 384 64<320 512>
 VStem: 192 128<-256 256 320 384 448 768>
 LayerCount: 2
@@ -5764,6 +5931,7 @@ SplineSet
  192 -256 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF050000
@@ -5771,7 +5939,7 @@ Encoding: 285 9532 168
 GlifName: S_F_050000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192 320 512>
 VStem: 192 128<-256 256 320 768>
 LayerCount: 2
@@ -5791,6 +5959,7 @@ SplineSet
  192 320 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF100000
@@ -5798,7 +5967,7 @@ Encoding: 286 9472 169
 GlifName: S_F_100000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 512>
 LayerCount: 2
 Fore
@@ -5809,6 +5978,7 @@ SplineSet
  0 320 l 1
  512 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF080000
@@ -5816,7 +5986,7 @@ Encoding: 287 9500 170
 GlifName: S_F_080000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<320 512>
 VStem: 192 128<-256 256 320 768>
 LayerCount: 2
@@ -5832,6 +6002,7 @@ SplineSet
  192 -256 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF060000
@@ -5839,7 +6010,7 @@ Encoding: 288 9516 171
 GlifName: S_F_060000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192 320 512>
 VStem: 192 128<-256 256>
 LayerCount: 2
@@ -5855,6 +6026,7 @@ SplineSet
  0 320 l 1
  512 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF070000
@@ -5862,7 +6034,7 @@ Encoding: 289 9524 172
 GlifName: S_F_070000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192 320 512>
 VStem: 192 128<320 768>
 LayerCount: 2
@@ -5878,6 +6050,7 @@ SplineSet
  192 320 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF020000
@@ -5885,7 +6058,7 @@ Encoding: 290 9492 173
 GlifName: S_F_020000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<320 512>
 VStem: 192 128<320 768>
 LayerCount: 2
@@ -5899,6 +6072,7 @@ SplineSet
  192 256 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF460000
@@ -5906,7 +6080,7 @@ Encoding: 291 9576 174
 GlifName: S_F_460000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128 256 320 448 512>
 VStem: 128 128<320 768> 320 128<320 768>
 LayerCount: 2
@@ -5926,6 +6100,7 @@ SplineSet
  448 320 l 25
  512 320 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF470000
@@ -5933,7 +6108,7 @@ Encoding: 292 9572 175
 GlifName: S_F_470000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192 320 512> 384 64<0 512>
 VStem: 192 128<-256 256>
 LayerCount: 2
@@ -5954,6 +6129,7 @@ SplineSet
  320 -256 l 1
  192 -256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF480000
@@ -5961,7 +6137,7 @@ Encoding: 293 9573 176
 GlifName: S_F_480000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128 256 320 448 512>
 VStem: 128 128<-256 256> 320 128<-256 256>
 LayerCount: 2
@@ -5981,6 +6157,7 @@ SplineSet
  512 320 l 25
  512 256 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF490000
@@ -5988,7 +6165,7 @@ Encoding: 294 9561 177
 GlifName: S_F_490000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<256 320 448 512>
 VStem: 128 128<320 768> 320 128<320 768>
 LayerCount: 2
@@ -6006,6 +6183,7 @@ SplineSet
  128 768 l 1
  256 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF500000
@@ -6013,7 +6191,7 @@ Encoding: 295 9560 178
 GlifName: S_F_500000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<320 512> 384 64<320 512>
 VStem: 192 128<320 384 448 768>
 LayerCount: 2
@@ -6031,6 +6209,7 @@ SplineSet
  192 256 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF510000
@@ -6038,7 +6217,7 @@ Encoding: 296 9554 179
 GlifName: S_F_510000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<320 512> 384 64<320 512>
 VStem: 192 128<-256 256 320 384>
 LayerCount: 2
@@ -6056,6 +6235,7 @@ SplineSet
  192 -256 l 1
  192 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF520000
@@ -6063,7 +6243,7 @@ Encoding: 297 9555 180
 GlifName: S_F_520000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<256 320 448 512>
 VStem: 128 128<-256 256> 320 128<-256 256>
 LayerCount: 2
@@ -6081,6 +6261,7 @@ SplineSet
  256 256 l 1
  256 -256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF530000
@@ -6088,7 +6269,7 @@ Encoding: 298 9579 181
 GlifName: S_F_530000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 128 256 320 448 512>
 VStem: 128 128<-256 256 320 768> 320 128<-256 256 320 768>
 LayerCount: 2
@@ -6116,6 +6297,7 @@ SplineSet
  448 -256 l 1
  320 -256 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF540000
@@ -6123,7 +6305,7 @@ Encoding: 299 9578 182
 GlifName: S_F_540000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192 320 512> 384 64<0 192 320 512>
 VStem: 192 128<-256 256 320 384 448 768>
 LayerCount: 2
@@ -6151,6 +6333,7 @@ SplineSet
  192 448 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF040000
@@ -6158,7 +6341,7 @@ Encoding: 300 9496 183
 GlifName: S_F_040000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 192>
 VStem: 192 128<320 768>
 LayerCount: 2
@@ -6172,6 +6355,7 @@ SplineSet
  192 320 l 1
  192 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: SF010000
@@ -6179,7 +6363,7 @@ Encoding: 301 9484 184
 GlifName: S_F_010000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<320 512>
 VStem: 192 128<-256 256>
 LayerCount: 2
@@ -6193,6 +6377,7 @@ SplineSet
  192 320 l 1
  512 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: block
@@ -6200,7 +6385,7 @@ Encoding: 302 9608 185
 GlifName: block
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 VStem: 0 512<-256 768>
 LayerCount: 2
 Fore
@@ -6211,6 +6396,7 @@ SplineSet
  0 -256 l 1
  0 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dnblock
@@ -6218,7 +6404,7 @@ Encoding: 303 9604 186
 GlifName: dnblock
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -256 576<0 512>
 VStem: 0 512<-256 320>
 LayerCount: 2
@@ -6230,6 +6416,7 @@ SplineSet
  0 -256 l 1
  0 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lfblock
@@ -6237,7 +6424,7 @@ Encoding: 304 9612 187
 GlifName: lfblock
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 VStem: 0 256<-256 768>
 LayerCount: 2
 Fore
@@ -6248,6 +6435,7 @@ SplineSet
  0 -256 l 1
  0 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: rtblock
@@ -6255,7 +6443,7 @@ Encoding: 305 9616 188
 GlifName: rtblock
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 VStem: 256 256<-256 768>
 LayerCount: 2
 Fore
@@ -6266,6 +6454,7 @@ SplineSet
  256 -256 l 1
  256 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: upblock
@@ -6273,7 +6462,7 @@ Encoding: 306 9600 189
 GlifName: upblock
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 320 448<0 512>
 VStem: 0 512<320 768>
 LayerCount: 2
@@ -6285,6 +6474,7 @@ SplineSet
  512 320 l 1
  0 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: alpha
@@ -6292,9 +6482,9 @@ Encoding: 307 945 190
 GlifName: alpha
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 192> 384 64<128 192>
-VStem: 0 128<96 352> 192 128<192 256>
+Flags: W
+HStem: 0 64<137.573 182.94> 384 64<137.573 182.94>
+VStem: 0 128<105.677 342.323> 192 128<192 256>
 LayerCount: 2
 Fore
 SplineSet
@@ -6316,6 +6506,7 @@ SplineSet
  192 320 192 384 160 384 c 0
  128 384 128 320 128 224 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: germandbls
@@ -6323,9 +6514,9 @@ Encoding: 223 223 191
 GlifName: germandbls
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 256 384> 576 64<128 256>
-VStem: 0 128<0 576> 256 128<480 576> 320 128<64 224>
+Flags: W
+HStem: 0 21G<0 128 256 392> 576 64<139.285 244.715>
+VStem: 0 128<0 563.034> 256 128<389.712 563.034> 320 128<77.981 229.699>
 LayerCount: 2
 Fore
 SplineSet
@@ -6345,6 +6536,7 @@ SplineSet
  0 480 l 1
  0 576 64 640 192 640 c 1xf0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Gamma
@@ -6352,8 +6544,8 @@ Encoding: 308 915 192
 GlifName: G_amma
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128> 448 192<320 448> 576 64<128 320>
+Flags: W
+HStem: 0 21G<0 128> 448 192<320 448> 576 64<128 320>
 VStem: 0 128<0 576> 320 128<448 576>
 LayerCount: 2
 Fore
@@ -6368,6 +6560,7 @@ SplineSet
  0 0 l 25
  0 640 l 25xb8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: pi
@@ -6375,8 +6568,8 @@ Encoding: 309 960 193
 GlifName: pi
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<64 192 256 384> 384 64<0 64 192 256 384 448>
+Flags: W
+HStem: 0 21G<64 192 256 384> 384 64<0 64 192 256 384 448>
 VStem: 64 128<0 384> 256 128<0 384>
 LayerCount: 2
 Fore
@@ -6395,6 +6588,7 @@ SplineSet
  0 448 l 25
  448 448 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Sigma
@@ -6402,7 +6596,7 @@ Encoding: 310 931 194
 GlifName: S_igma
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 128<352 448> 0 64<96 288> 512 128<352 448> 576 64<96 288>
 DStem2: 96 576 0 544 0.707107 -0.707107<0 271.529> 0 96 96 64 0.707107 0.707107<45.2548 316.784>
 LayerCount: 2
@@ -6427,6 +6621,7 @@ SplineSet
  448 640 l 25
  448 512 l 1x20
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sigma
@@ -6434,9 +6629,9 @@ Encoding: 311 963 195
 GlifName: sigma
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 192> 384 64<128 192 288 448>
-VStem: 0 128<96 352> 192 128<96 384>
+Flags: W
+HStem: 0 64<137.573 182.427> 384 64<138.101 182.956 288 448>
+VStem: 0 128<105.677 342.323> 192 128<105.677 370.808>
 LayerCount: 2
 Fore
 SplineSet
@@ -6455,6 +6650,7 @@ SplineSet
  192 320 192 384 160 384 c 0
  128 384 128 320 128 224 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: mu
@@ -6462,9 +6658,9 @@ Encoding: 181 181 196
 GlifName: mu
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 64<0 32> 0 64<224 288> 416 32G<64 192 320 448>
-VStem: 64 128<-96 0 96 448> 320 128<96 448>
+Flags: W
+HStem: -192 64<0 39.3203> 0 64<216.68 295.32> 428 20G<64 192 320 448>
+VStem: 64 128<-101.25 0 88.3896 448> 320 128<90.75 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -6483,6 +6679,7 @@ SplineSet
  32 -128 64 -96 64 0 c 1
  64 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tau
@@ -6490,9 +6687,9 @@ Encoding: 312 964 197
 GlifName: tau
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320> 448 64<128 192 384 448>
-VStem: 192 128<0 352>
+Flags: W
+HStem: 0 21G<192 320> 448 64<131.727 189.756 390.183 448>
+VStem: 192 128<0 380.284>
 LayerCount: 2
 Fore
 SplineSet
@@ -6508,6 +6705,7 @@ SplineSet
  128 448 96 384 96 384 c 1
  0 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Phi
@@ -6515,9 +6713,9 @@ Encoding: 313 934 198
 GlifName: P_hi
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<64 192 320 448> 576 64<64 192 320 448>
-VStem: 64 128<224 416> 192 128<64 128 512 576> 320 128<224 416>
+VStem: 64 128<228.247 411.753> 192 128<64 139.648 500.352 576> 320 128<228.247 411.753>
 LayerCount: 2
 Fore
 SplineSet
@@ -6546,6 +6744,7 @@ SplineSet
  64 576 l 1
  64 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Theta
@@ -6553,9 +6752,9 @@ Encoding: 314 920 199
 GlifName: T_heta
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 256> 320 64<128 320> 576 64<192 256>
-VStem: 0 128<160 320 384 480> 320 128<160 320 384 480>
+Flags: W
+HStem: 0 64<182.616 265.384> 320 64<128 320> 576 64<182.616 265.384>
+VStem: 0 128<174.611 320 384 465.389> 320 128<174.611 320 384 465.389>
 LayerCount: 2
 Fore
 SplineSet
@@ -6573,6 +6772,7 @@ SplineSet
  160 576 128 448 128 384 c 1
  320 384 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni03A9
@@ -6580,9 +6780,9 @@ Encoding: 315 937 200
 GlifName: uni03A_9
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<0 64 384 448> 576 64<160 288>
-VStem: 0 128<320 512> 64 128<64 288> 256 128<64 288> 320 128<320 512>
+Flags: W
+HStem: 0 64<0 64 384 448> 576 64<170.71 277.29>
+VStem: 0 128<318.798 514.997> 64 128<64 283.361> 256 128<64 283.361> 320 128<318.798 514.997>
 LayerCount: 2
 Fore
 SplineSet
@@ -6606,6 +6806,7 @@ SplineSet
  352 640 448 544 448 416 c 0xe4
  448 352 416 288 384 256 c 1xc8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: delta
@@ -6613,9 +6814,9 @@ Encoding: 316 948 201
 GlifName: delta
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<224 288> 320 64<224 288> 576 64<256 448>
-VStem: 64 128<96 288> 320 128<96 320>
+Flags: W
+HStem: 0 64<209.913 302.087> 320 64<211 287.615> 576 64<259.458 448>
+VStem: 64 128<85.3799 298.62> 320 128<85.3799 304.064>
 LayerCount: 2
 Fore
 SplineSet
@@ -6636,6 +6837,7 @@ SplineSet
  320 256 320 320 256 320 c 0
  192 320 192 256 192 192 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: infinity
@@ -6643,9 +6845,9 @@ Encoding: 317 8734 202
 GlifName: infinity
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 128 64<128 192 320 384> 384 64<128 192 320 384>
-VStem: 0 128<192 384> 192 128<192 384> 384 128<192 384>
+Flags: W
+HStem: 128 64<133.128 187.307 324.693 378.872> 384 64<133.128 187.307 324.693 378.872>
+VStem: 0 128<201.052 374.948> 192 128<193.5 382.5> 384 128<201.052 374.948>
 CounterMasks: 1 38
 LayerCount: 2
 Fore
@@ -6670,6 +6872,7 @@ SplineSet
  384 352 384 384 352 384 c 0
  320 384 320 352 320 288 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: phi
@@ -6677,9 +6880,9 @@ Encoding: 318 966 203
 GlifName: phi
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 96> 128 64<256 352> 384 64<160 224>
-VStem: 0 128<224 352> 384 128<224 352>
+Flags: W
+HStem: 0 21G<0 111> 128 64<256 350.922> 384 64<154.307 224>
+VStem: 0 128<236.105 356.565> 384 128<221.861 361.795>
 DStem2: 0 32 96 0 0.60745 0.794358<32.8958 159.993 557.733 684.83>
 LayerCount: 2
 Fore
@@ -6708,6 +6911,7 @@ SplineSet
  160 384 128 352 128 288 c 0
  128 256 160 224 160 224 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: epsilon
@@ -6715,9 +6919,9 @@ Encoding: 319 949 204
 GlifName: epsilon
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<256 320> 320 64<192 384> 576 64<256 320>
-VStem: 64 128<160 320 384 480>
+Flags: W
+HStem: 0 64<252.243 335.422> 320 64<192 384> 576 64<252.243 335.422>
+VStem: 64 128<153.933 320 384 485.25>
 LayerCount: 2
 Fore
 SplineSet
@@ -6734,6 +6938,7 @@ SplineSet
  192 192 224 64 288 64 c 0
  320 64 384 64 384 64 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: intersection
@@ -6741,9 +6946,9 @@ Encoding: 320 8745 205
 GlifName: intersection
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 512 64<160 288>
-VStem: 0 128<0 480> 320 128<0 480>
+Flags: W
+HStem: 0 21G<0 128 320 448> 512 64<154.66 293.34>
+VStem: 0 128<0 482.654> 320 128<0 482.654>
 LayerCount: 2
 Fore
 SplineSet
@@ -6759,6 +6964,7 @@ SplineSet
  0 416 l 1
  0 544 96 576 224 576 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: equivalence
@@ -6766,7 +6972,7 @@ Encoding: 321 8801 206
 GlifName: equivalence
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 64 64<0 448> 256 64<0 448> 448 64<0 448>
 CounterMasks: 1 e0
 LayerCount: 2
@@ -6788,6 +6994,7 @@ SplineSet
  0 256 l 1
  0 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: plusminus
@@ -6795,7 +7002,7 @@ Encoding: 177 177 207
 GlifName: plusminus
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<64 448> 320 64<64 192 320 448>
 VStem: 192 128<192 320 384 512>
 LayerCount: 2
@@ -6820,6 +7027,7 @@ SplineSet
  64 320 l 25
  64 384 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: greaterequal
@@ -6827,7 +7035,7 @@ Encoding: 322 8805 208
 GlifName: greaterequal
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<64 448>
 DStem2: 224 576 128 544 0.707107 -0.707107<0 226.274> 128 160 224 128 0.707107 0.707107<45.2548 271.529>
 LayerCount: 2
@@ -6848,6 +7056,7 @@ SplineSet
  224 576 l 1
  448 352 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lessequal
@@ -6855,7 +7064,7 @@ Encoding: 323 8804 209
 GlifName: lessequal
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<64 448>
 DStem2: 192 352 64 352 0.707107 -0.707107<0 226.274> 64 352 192 352 0.707107 0.707107<90.5097 316.784>
 LayerCount: 2
@@ -6876,6 +7085,7 @@ SplineSet
  288 128 l 1
  64 352 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: integraltp
@@ -6883,9 +7093,9 @@ Encoding: 324 8992 210
 GlifName: integraltp
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 448 32G<384 512> 576 64<320 384>
-VStem: 192 128<-256 576> 384 128<448 576>
+Flags: W
+HStem: 448 21G<384 512> 576 64<332.875 371.125>
+VStem: 192 128<-256 562.24> 384 128<448 562.24>
 LayerCount: 2
 Fore
 SplineSet
@@ -6899,6 +7109,7 @@ SplineSet
  480 640 512 544 512 448 c 9
  384 448 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: integralbt
@@ -6906,9 +7117,9 @@ Encoding: 325 8993 211
 GlifName: integralbt
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -64 64<128 192>
-VStem: 0 128<0 192> 192 128<0 768>
+Flags: W
+HStem: -64 64<140.875 179.125>
+VStem: 0 128<13.7604 192> 192 128<13.7604 768>
 LayerCount: 2
 Fore
 SplineSet
@@ -6924,6 +7135,7 @@ SplineSet
  128 192 l 1
  128 128 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: divide
@@ -6931,9 +7143,9 @@ Encoding: 247 247 212
 GlifName: divide
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 128 64<192 320> 256 64<64 448> 384 64<192 320>
-VStem: 192 128<128 192 384 448>
+Flags: W
+HStem: 128 64<193.438 318.562> 256 64<64 448> 384 64<193.438 318.562>
+VStem: 192 128<131.296 188.704 387.296 444.704>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -6954,6 +7166,7 @@ SplineSet
  64 256 l 1
  64 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: approxequal
@@ -6961,8 +7174,8 @@ Encoding: 326 8776 213
 GlifName: approxequal
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 128 64<0 64 256 320> 192 64<128 192 384 448> 320 64<0 64 256 320> 384 64<128 192 384 448>
+Flags: W
+HStem: 128 64<0 64 252.496 324.229> 192 64<123.771 195.504 384 448> 320 64<0 64 252.496 324.229> 384 64<123.771 195.504 384 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -6989,6 +7202,7 @@ SplineSet
  160 320 224 384 160 384 c 1x10
  96 384 160 320 0 320 c 1x20
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: degree
@@ -6996,9 +7210,9 @@ Encoding: 176 176 214
 GlifName: degree
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 448 64<192 256> 640 64<192 256>
-VStem: 64 128<512 640> 256 128<512 640>
+Flags: W
+HStem: 448 64<196.583 251.417> 640 64<196.583 251.417>
+VStem: 64 128<514.349 637.651> 256 128<514.349 637.651>
 LayerCount: 2
 Fore
 SplineSet
@@ -7013,6 +7227,7 @@ SplineSet
  384 512 320 448 224 448 c 0
  128 448 64 512 64 576 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni2219
@@ -7020,9 +7235,9 @@ Encoding: 327 8729 215
 GlifName: uni2219
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 192 128<224 288>
-VStem: 192 128<224 288>
+Flags: W
+HStem: 192 128<209.798 302.202>
+VStem: 192 128<209.798 302.202>
 LayerCount: 2
 Fore
 SplineSet
@@ -7032,6 +7247,7 @@ SplineSet
  320 224 288 192 256 192 c 0
  224 192 192 224 192 256 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: periodcentered
@@ -7039,9 +7255,9 @@ Encoding: 183 183 216
 GlifName: periodcentered
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<192 320>
-VStem: 192 128<256 320>
+Flags: W
+HStem: 256 64<193.438 318.562>
+VStem: 192 128<259.296 316.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -7051,6 +7267,7 @@ SplineSet
  320 256 288 256 256 256 c 0
  224 256 192 256 192 288 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: radical
@@ -7058,8 +7275,8 @@ Encoding: 328 8730 217
 GlifName: radical
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 384> 640 64<384 512>
+Flags: W
+HStem: 0 21G<207.333 384> 640 64<384 512>
 VStem: 256 128<128 640>
 LayerCount: 2
 Fore
@@ -7077,6 +7294,7 @@ SplineSet
  256 704 l 1
  512 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni207F
@@ -7084,9 +7302,9 @@ Encoding: 329 8319 218
 GlifName: uni207F_
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 640 64<256 320>
-VStem: 128 128<320 640> 320 128<320 640>
+Flags: W
+HStem: 640 64<260.693 314.872>
+VStem: 128 128<320 638.5> 320 128<320 630.356>
 LayerCount: 2
 Fore
 SplineSet
@@ -7106,6 +7324,7 @@ SplineSet
  128 320 l 25
  128 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni00B2
@@ -7113,9 +7332,9 @@ Encoding: 178 178 219
 GlifName: uni00B_2
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 320 64<224 352> 416 32G<384 448> 640 64<224 320>
-VStem: 320 128<576 640>
+Flags: W
+HStem: 320 64<224 352> 428 20G<396 448> 640 64<210.399 317.445>
+VStem: 320 128<572.714 636.602>
 DStem2: 192 480 224 384 0.707107 0.707107<-45.2548 179.893>
 LayerCount: 2
 Fore
@@ -7137,6 +7356,7 @@ SplineSet
  224 640 192 608 192 576 c 1
  64 576 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: filledbox
@@ -7144,7 +7364,7 @@ Encoding: 330 9632 220
 GlifName: filledbox
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 64 448<64 448>
 VStem: 64 384<64 512>
 LayerCount: 2
@@ -7156,6 +7376,7 @@ SplineSet
  448 64 l 1
  64 64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: house
@@ -7163,7 +7384,7 @@ Encoding: 331 8962 221
 GlifName: house
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 64 64<128 320>
 VStem: 0 128<128 288> 320 128<128 288>
 DStem2: 0 288 128 288 0.707107 0.707107<90.5097 226.274> 224 512 224 384 0.707107 -0.707107<90.5097 226.274>
@@ -7183,6 +7404,7 @@ SplineSet
  448 64 l 25
  0 64 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: smileface
@@ -7190,9 +7412,9 @@ Encoding: 332 9786 222
 GlifName: smileface
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<96 416> 192 128<224 288> 448 64<128 192 320 384> 576 64<96 416>
-VStem: 0 64<96 544> 128 64<448 512> 320 64<448 512> 448 64<96 544>
+Flags: W
+HStem: 0 64<97.7695 414.23> 192 128<226.244 285.756> 448 64<128.062 191.938 320.062 383.938> 576 64<97.7695 414.23>
+VStem: 0 64<98.6928 541.307> 128 64<448.062 511.938> 320 64<448.062 511.938> 448 64<98.6928 541.307>
 LayerCount: 2
 Fore
 SplineSet
@@ -7221,6 +7443,7 @@ SplineSet
  512 32 480 0 256 0 c 0
  32 0 0 32 0 320 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: invsmileface
@@ -7228,9 +7451,9 @@ Encoding: 333 9787 223
 GlifName: invsmileface
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 192<192 320> 320 128<128 192 320 384> 512 128<128 384>
-VStem: 0 128<256 320 352 512> 192 128<448 512> 384 128<256 320 352 512>
+Flags: W
+HStem: 0 192<203.807 308.193> 320 128<128.062 191.938 320.062 383.938> 512 128<128.072 383.928>
+VStem: 0 128<268.945 320 358.504 509.585> 192 128<448.062 511.938> 384 128<268.945 320 358.504 509.585>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
@@ -7255,6 +7478,7 @@ SplineSet
  512 32 480 0 256 0 c 0
  32 0 0 32 0 320 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: heart
@@ -7262,9 +7486,8 @@ Encoding: 334 9829 224
 GlifName: heart
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 256>
-VStem: 0 448<224 416>
+Flags: W
+HStem: 0 21G<208 240>
 LayerCount: 2
 Fore
 SplineSet
@@ -7276,6 +7499,7 @@ SplineSet
  448 128 256 64 224 0 c 1
  192 64 0 128 0 352 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: diamond
@@ -7283,7 +7507,7 @@ Encoding: 335 9830 225
 GlifName: diamond
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7293,6 +7517,7 @@ SplineSet
  0 288 l 25
  224 512 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: club
@@ -7300,9 +7525,9 @@ Encoding: 336 9827 226
 GlifName: club
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 192<192 320> 0 64<160 192 320 352> 192 192<32 160 352 480> 384 192<192 320>
-VStem: 0 192<224 352> 192 128<64 192> 320 192<224 352>
+Flags: W
+HStem: 0 192<192 320> 0 64<160 192 320 352> 192 192<25.5234 166.477 345.523 486.477> 384 192<189.97 322.03>
+VStem: 0 192<217.523 358.477> 192 128<64 192> 320 192<217.523 358.477>
 LayerCount: 2
 Fore
 SplineSet
@@ -7333,6 +7558,7 @@ SplineSet
  128 0 l 25x44
  128 32 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: spade
@@ -7340,9 +7566,9 @@ Encoding: 337 9824 227
 GlifName: spade
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 64<160 192 320 352>
-VStem: 0 512<224 352> 192 128<64 224>
+VStem: 0 512<239.461 344.546> 192 128<64 224>
 LayerCount: 2
 Fore
 SplineSet
@@ -7363,6 +7589,7 @@ SplineSet
  0 384 256 576 256 576 c 1
  256 576 512 384 512 288 c 0xc0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bullet
@@ -7370,9 +7597,9 @@ Encoding: 338 8226 228
 GlifName: bullet
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 128 256<192 320>
-VStem: 128 256<192 320>
+Flags: W
+HStem: 128 256<189.97 322.03>
+VStem: 128 256<189.97 322.03>
 LayerCount: 2
 Fore
 SplineSet
@@ -7382,6 +7609,7 @@ SplineSet
  384 192 320 128 256 128 c 0
  192 128 128 192 128 256 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: invbullet
@@ -7389,9 +7617,9 @@ Encoding: 339 9688 229
 GlifName: invbullet
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -256 384<192 320> 384 384<192 320>
-VStem: 0 128<192 320> 384 128<192 320>
+Flags: W
+HStem: -256 384<189.97 322.03> 384 384<189.97 322.03>
+VStem: 0 128<189.97 322.03> 384 128<189.97 322.03>
 LayerCount: 2
 Fore
 SplineSet
@@ -7406,6 +7634,7 @@ SplineSet
  384 320 320 384 256 384 c 0
  192 384 128 320 128 256 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: circle
@@ -7413,9 +7642,9 @@ Encoding: 340 9675 230
 GlifName: circle
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 64 64<192 320> 384 64<192 320>
-VStem: 64 64<192 320> 384 64<192 320>
+Flags: W
+HStem: 64 64<190.36 321.64> 384 64<190.36 321.64>
+VStem: 64 64<190.36 321.64> 384 64<190.36 321.64>
 LayerCount: 2
 Fore
 SplineSet
@@ -7430,6 +7659,7 @@ SplineSet
  384 320 320 384 256 384 c 0
  192 384 128 320 128 256 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: invcircle
@@ -7437,9 +7667,9 @@ Encoding: 341 9689 231
 GlifName: invcircle
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -256 320<160 352> 128 256<192 320> 448 320<160 352>
-VStem: 0 64<160 352> 448 64<160 352>
+Flags: W
+HStem: -256 320<150.672 361.328> 128 256<189.97 322.03> 448 320<150.672 361.328>
+VStem: 0 64<150.672 361.328> 448 64<150.672 361.328>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -7460,6 +7690,7 @@ SplineSet
  384 192 320 128 256 128 c 0
  192 128 128 192 128 256 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: male
@@ -7467,9 +7698,9 @@ Encoding: 342 9794 232
 GlifName: male
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 256> 320 64<224 256> 576 64<192 288>
-VStem: 0 96<96 288> 288 96<96 288> 384 64<384 544>
+Flags: W
+HStem: 0 64<136.043 247.957> 320 64<224 245.899> 576 64<192 288>
+VStem: 0 96<107.137 276.863> 288 96<107.137 276.863> 384 64<384 544>
 DStem2: 96 384 224 384 0.707107 0.707107<90.5097 271.529>
 LayerCount: 2
 Fore
@@ -7493,6 +7724,7 @@ SplineSet
  192 640 l 1
  448 640 l 1xf4
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: female
@@ -7500,9 +7732,9 @@ Encoding: 343 9792 233
 GlifName: female
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320> 128 64<64 192 320 448> 576 64<192 320>
-VStem: 64 96<352 544> 192 128<0 128 192 256> 352 96<352 544>
+Flags: W
+HStem: 0 21G<192 320> 128 64<64 192 320 448> 576 64<200.043 311.957>
+VStem: 64 96<363.397 532.863> 192 128<0 128 192 266.626> 352 96<363.397 532.863>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
@@ -7529,6 +7761,7 @@ SplineSet
  352 512 320 576 256 576 c 0
  192 576 160 512 160 448 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: musicalnote
@@ -7536,8 +7769,8 @@ Encoding: 344 9834 234
 GlifName: musicalnote
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 192<64 128> 448 64<256 384> 576 64<256 384>
+Flags: W
+HStem: 0 192<61.9705 128> 448 64<256 384> 576 64<256 384>
 VStem: 128 128<192 448 512 576> 384 128<512 576>
 LayerCount: 2
 Fore
@@ -7558,6 +7791,7 @@ SplineSet
  128 448 l 1
  128 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: musicalnotedbl
@@ -7565,9 +7799,9 @@ Encoding: 345 9835 235
 GlifName: musicalnotedbl
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<384 448> 448 64<192 384> 576 64<192 384>
-VStem: 64 128<160 448 512 576> 384 128<224 448 512 576>
+Flags: W
+HStem: 0 21G<368 448> 448 64<192 384> 576 64<192 384>
+VStem: 64 128<134.518 448 512 576> 384 128<198.518 448 512 576>
 LayerCount: 2
 Fore
 SplineSet
@@ -7592,6 +7826,7 @@ SplineSet
  64 448 l 1
  64 640 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sun
@@ -7599,8 +7834,8 @@ Encoding: 346 9788 236
 GlifName: sun
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320> 256 64<0 128 384 512> 416 32G<0 128 384 512>
+Flags: W
+HStem: 0 21G<192 320> 256 64<0 128 384 512> 428 20G<0 126 386 512>
 VStem: 192 128<0 192 384 576>
 LayerCount: 2
 Fore
@@ -7644,6 +7879,7 @@ SplineSet
  320 320 288 320 256 320 c 0
  224 320 192 320 192 288 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: triagrt
@@ -7651,8 +7887,8 @@ Encoding: 347 9658 237
 GlifName: triagrt
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 64> 320 64<352 448>
+Flags: W
+HStem: 0 21G<0 52> 320 64<352 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -7666,6 +7902,7 @@ SplineSet
  0 0 l 1
  0 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: triaglf
@@ -7673,8 +7910,8 @@ Encoding: 348 9668 238
 GlifName: triaglf
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<384 448> 320 64<0 96>
+Flags: W
+HStem: 0 21G<396 448> 320 64<0 96>
 LayerCount: 2
 Fore
 SplineSet
@@ -7688,6 +7925,7 @@ SplineSet
  416 704 l 1
  448 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: arrowupdn
@@ -7695,8 +7933,8 @@ Encoding: 349 8597 239
 GlifName: arrowupdn
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 608 32G<192 320>
+Flags: W
+HStem: 620 20G<204 308>
 VStem: 192 128<256 448>
 LayerCount: 2
 Fore
@@ -7719,6 +7957,7 @@ SplineSet
  64 480 l 25
  224 640 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: exclamdbl
@@ -7726,9 +7965,9 @@ Encoding: 350 8252 240
 GlifName: exclamdbl
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 128<96 160 352 416> 608 32G<128 128 384 384>
-VStem: 64 128<32 96 224 608> 320 128<32 96 224 608>
+Flags: W
+HStem: 0 128<81.7979 174.202 337.798 430.202> 620 20G<112 144 368 400>
+VStem: 64 128<17.7979 110.202 237.483 594.517> 320 128<17.7979 110.202 237.483 594.517>
 LayerCount: 2
 Fore
 SplineSet
@@ -7753,6 +7992,7 @@ SplineSet
  192 32 160 0 128 0 c 0
  96 0 64 32 64 64 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: paragraph
@@ -7760,9 +8000,10 @@ Encoding: 182 182 241
 GlifName: paragraph
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320 384 512> 320 64<128 192> 576 64<128 192 320 384>
-VStem: 192 128<0 320 384 576> 384 128<0 576>
+Flags: W
+HStem: 0 21G<192 320 384 512> 320 64<138.398 192> 576 64<138.398 192 320 384>
+VStem: 0 128<388.783 571.217> 192 128<0 320 384 576> 384 128<0 576>
+CounterMasks: 1 1c
 LayerCount: 2
 Fore
 SplineSet
@@ -7785,6 +8026,7 @@ SplineSet
  512 640 l 1
  512 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: section
@@ -7792,9 +8034,9 @@ Encoding: 167 167 242
 GlifName: section
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -64 64<128 320> 128 64<192 256> 448 64<192 256> 640 64<128 320>
-VStem: 0 128<0 64 256 384 576 640> 320 128<0 64 256 384 576 640>
+Flags: W
+HStem: -64 64<138.209 317.891> 128 64<182.047 266.443> 448 64<181.557 265.953> 640 64<130.109 309.791>
+VStem: 0 128<14.8115 64 252.555 388.876 572.751 637.296> 320 128<2.70367 67.2487 251.124 387.445 576 625.188>
 LayerCount: 2
 Fore
 SplineSet
@@ -7823,6 +8065,7 @@ SplineSet
  256 192 320 256 320 320 c 0
  320 384 256 448 224 448 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: filledrect
@@ -7830,7 +8073,7 @@ Encoding: 351 9644 243
 GlifName: filledrect
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 0 256<0 448>
 LayerCount: 2
 Fore
@@ -7841,6 +8084,7 @@ SplineSet
  448 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: arrowupdnbse
@@ -7848,8 +8092,8 @@ Encoding: 352 8616 244
 GlifName: arrowupdnbse
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<64 224 288 448> 608 32G<192 320>
+Flags: W
+HStem: 0 64<64 224 288 448> 620 20G<204 308>
 VStem: 192 128<256 448>
 LayerCount: 2
 Fore
@@ -7876,6 +8120,7 @@ SplineSet
  64 480 l 25
  224 640 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: arrowup
@@ -7883,8 +8128,8 @@ Encoding: 353 8593 245
 GlifName: arrowup
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320> 608 32G<192 320>
+Flags: W
+HStem: 0 21G<192 320> 620 20G<204 308>
 VStem: 192 128<0 448>
 LayerCount: 2
 Fore
@@ -7901,6 +8146,7 @@ SplineSet
  64 480 l 25
  224 640 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: arrowdown
@@ -7908,8 +8154,8 @@ Encoding: 354 8595 246
 GlifName: arrowdown
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<192 320> 608 32G<192 320>
+Flags: W
+HStem: 0 21G<204 308> 620 20G<192 320>
 VStem: 192 128<192 640>
 LayerCount: 2
 Fore
@@ -7926,6 +8172,7 @@ SplineSet
  288 0 l 25
  224 0 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: arrowright
@@ -7933,8 +8180,8 @@ Encoding: 355 8594 247
 GlifName: arrowright
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<0 288> 416 32G<192 320>
+Flags: W
+HStem: 256 64<0 288> 428 20G<192 308>
 LayerCount: 2
 Fore
 SplineSet
@@ -7951,6 +8198,7 @@ SplineSet
  192 416 l 1
  192 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: arrowleft
@@ -7958,8 +8206,8 @@ Encoding: 356 8592 248
 GlifName: arrowleft
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<160 448> 416 32G<128 256>
+Flags: W
+HStem: 256 64<160 448> 428 20G<140 256>
 LayerCount: 2
 Fore
 SplineSet
@@ -7976,6 +8224,7 @@ SplineSet
  160 448 l 1
  256 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: orthogonal
@@ -7983,7 +8232,7 @@ Encoding: 357 8735 249
 GlifName: orthogonal
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 128 64<128 448>
 VStem: 0 128<192 384>
 LayerCount: 2
@@ -7997,6 +8246,7 @@ SplineSet
  0 128 l 25
  0 384 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: arrowboth
@@ -8004,8 +8254,8 @@ Encoding: 358 8596 250
 GlifName: arrowboth
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 256 64<192 256> 416 32G<128 192 256 320>
+Flags: W
+HStem: 256 64<192 256> 428 20G<140 192 256 308>
 LayerCount: 2
 Fore
 SplineSet
@@ -8025,6 +8275,7 @@ SplineSet
  160 128 l 25
  0 288 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: triagup
@@ -8032,7 +8283,7 @@ Encoding: 359 9650 251
 GlifName: triagup
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8044,6 +8295,7 @@ SplineSet
  0 96 l 1
  192 512 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: triagdn
@@ -8051,7 +8303,7 @@ Encoding: 360 9660 252
 GlifName: triagdn
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8063,6 +8315,7 @@ SplineSet
  256 64 l 1
  192 64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: space
@@ -8070,8 +8323,10 @@ Encoding: 32 32 253
 GlifName: space
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: threequarters
@@ -8079,14 +8334,14 @@ Encoding: 190 190 254
 GlifName: threequarters
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<288 320 448 512> 384 64<0 160> 640 64<0 160>
-VStem: 160 96<448 512 576 640> 320 128<-128 0> 384 64<64 160>
+Flags: W
+HStem: 0 64<288 320 448 512> 384 64<0 154.438> 512 64<64 155.875> 640 64<0 154.438>
+VStem: 160 96<461.326 501.133 586.867 626.674> 320 128<-128 0> 384 64<64 160>
 DStem2: 0 160 32 64 0.707107 0.707107<0 543.058> 128 32 288 64 0.707107 0.707107<135.765 271.529>
 LayerCount: 2
 Fore
 SplineSet
-0 704 m 1xf0
+0 704 m 1xf8
  128 704 l 17
  192 704 256 640 256 608 c 1
  256 576 192 544 192 544 c 1
@@ -8099,19 +8354,19 @@ SplineSet
  64 576 l 1
  64 576 160 576 160 608 c 1
  160 640 32 640 0 640 c 1
- 0 704 l 1xf0
-384 64 m 25xf4
+ 0 704 l 1xf8
+384 64 m 25xfa
  384 160 l 25
  288 64 l 25
- 384 64 l 25xf4
+ 384 64 l 25xfa
 448 256 m 25
- 448 64 l 25xf4
+ 448 64 l 25xfa
  512 64 l 25
  512 0 l 25
  448 0 l 25
  448 -128 l 25
  320 -128 l 25
- 320 0 l 25xf8
+ 320 0 l 25xfc
  128 0 l 25
  128 32 l 25
  352 256 l 25
@@ -8124,6 +8379,7 @@ SplineSet
  0 64 l 25
  0 160 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Aacute
@@ -8131,8 +8387,8 @@ Encoding: 193 193 255
 GlifName: A_acute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 256 64<128 320> 608 32G<192 256> 640 32G<0 128>
+Flags: W
+HStem: 0 21G<0 128 320 448> 256 64<128 320> 620 20G<204 244> 640 21G<0 116>
 VStem: 0 128<0 256 320 416> 320 128<0 256 320 416>
 DStem2: 0 416 128 416 0.707107 0.707107<90.5097 226.274> 224 640 224 512 0.707107 -0.707107<90.5097 226.274>
 LayerCount: 2
@@ -8161,6 +8417,7 @@ SplineSet
  224 512 l 1
  128 416 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Acircumflex
@@ -8168,8 +8425,8 @@ Encoding: 194 194 256
 GlifName: A_circumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 256 64<128 320> 608 32G<192 256> 640 32G<0 128 320 448> 704 64<160 288>
+Flags: W
+HStem: 0 21G<0 128 320 448> 256 64<128 320> 620 20G<204 244> 640 21G<0 116 332 448> 704 64<160 288>
 VStem: 0 128<0 256 320 416> 320 128<0 256 320 416>
 DStem2: 0 416 128 416 0.707107 0.707107<90.5097 226.274> 224 640 224 512 0.707107 -0.707107<90.5097 226.274>
 LayerCount: 2
@@ -8201,6 +8458,7 @@ SplineSet
  224 512 l 1
  128 416 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Agrave
@@ -8208,8 +8466,8 @@ Encoding: 192 192 257
 GlifName: A_grave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 256 64<128 320> 608 32G<192 256> 640 32G<320 448>
+Flags: W
+HStem: 0 21G<0 128 320 448> 256 64<128 320> 620 20G<204 244> 640 21G<332 448>
 VStem: 0 128<0 256 320 416> 320 128<0 256 320 416>
 DStem2: 0 416 128 416 0.707107 0.707107<90.5097 226.274> 224 640 224 512 0.707107 -0.707107<90.5097 226.274>
 LayerCount: 2
@@ -8238,6 +8496,7 @@ SplineSet
  224 512 l 1
  128 416 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Atilde
@@ -8245,8 +8504,8 @@ Encoding: 195 195 258
 GlifName: A_tilde
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 256 64<128 320> 640 64<0 64 256 320> 704 64<128 192 384 448>
+Flags: W
+HStem: 0 21G<0 128 320 448> 256 64<128 320> 640 64<0 64 252.496 324.229> 704 64<123.771 195.504 384 448>
 VStem: 0 128<0 256 320 416> 320 128<0 256 320 416>
 DStem2: 0 416 128 416 0.707107 0.707107<90.5097 226.274> 288 576 224 512 0.707107 -0.707107<0 135.765>
 LayerCount: 2
@@ -8281,6 +8540,7 @@ SplineSet
  224 512 l 1
  128 416 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: atilde
@@ -8288,9 +8548,9 @@ Encoding: 227 227 259
 GlifName: atilde
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 224> 256 64<160 224> 384 64<64 224> 512 64<0 64 256 320> 576 64<128 192 384 448>
-VStem: 0 128<96 224> 256 128<96 224>
+Flags: W
+HStem: 0 64<150.452 234.432> 256 64<151.767 234.863> 384 64<64 209.578> 512 64<0 64 252.496 324.229> 576 64<123.771 195.504 384 448>
+VStem: 0 128<86.1997 233.8> 256 128<85.0938 227.883>
 LayerCount: 2
 Fore
 SplineSet
@@ -8325,6 +8585,7 @@ SplineSet
  160 512 224 576 160 576 c 1xee
  96 576 160 512 0 512 c 1xf6
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eth
@@ -8332,9 +8593,9 @@ Encoding: 240 240 260
 GlifName: eth
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<224 288> 320 64<224 320> 448 32G<128 192> 608 32G<128 192 320 384>
-VStem: 64 128<96 288> 320 128<96 384 384 416>
+Flags: W
+HStem: 0 64<216.488 302.133> 320 64<216.68 314.046> 448 21G<128 180> 620 20G<128 176 332 384>
+VStem: 64 128<89.5698 294.43> 320 128<84.9316 371.763 384 426.874>
 DStem2: 128 480 160 448 0.707107 0.707107<0 90.5097> 288 576 320 544 0.707107 0.707107<0 90.5097>
 LayerCount: 2
 Fore
@@ -8363,6 +8624,7 @@ SplineSet
  320 544 l 1
  448 416 448 448 448 192 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Eth
@@ -8370,9 +8632,9 @@ Encoding: 208 208 261
 GlifName: E_th
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 320 64<0 64 192 256> 576 64<192 288>
-VStem: 64 128<64 320 384 576> 320 128<192 448>
+Flags: W
+HStem: 0 64<192 274.625> 320 64<0 64 192 256> 576 64<192 274.625>
+VStem: 64 128<64 320 384 576> 320 128<181.428 458.572>
 LayerCount: 2
 Fore
 SplineSet
@@ -8401,6 +8663,7 @@ SplineSet
  352 640 448 480 448 320 c 3
  448 160 352 0 288 0 c 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ecircumflex
@@ -8408,8 +8671,8 @@ Encoding: 202 202 262
 GlifName: E_circumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 32G<64 192 256 384>
+Flags: W
+HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 21G<64 180 268 384>
 VStem: 64 128<64 256 320 512>
 LayerCount: 2
 Fore
@@ -8448,6 +8711,7 @@ SplineSet
  64 640 l 25
  160 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -8455,9 +8719,9 @@ Encoding: 203 203 263
 GlifName: E_dieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 64<0 128 320 448>
-VStem: 0 128<640 704> 64 128<64 256 320 512> 320 128<640 704>
+Flags: W
+HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<643.296 700.704> 64 128<64 256 320 512> 320 128<643.296 700.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -8497,6 +8761,7 @@ SplineSet
  96 704 128 704 128 672 c 0xfa
  128 640 96 640 64 640 c 0xf6
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Egrave
@@ -8504,8 +8769,8 @@ Encoding: 200 200 264
 GlifName: E_grave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 32G<192 320>
+Flags: W
+HStem: 0 64<192 288> 256 64<192 224> 512 64<192 288> 640 21G<204 320>
 VStem: 64 128<64 256 320 512>
 LayerCount: 2
 Fore
@@ -8542,6 +8807,7 @@ SplineSet
  128 768 l 1
  256 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dotlessi
@@ -8549,8 +8815,8 @@ Encoding: 361 305 265
 GlifName: dotlessi
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 416 32G<128 320>
+Flags: W
+HStem: 0 21G<128 384> 428 20G<128 320>
 VStem: 192 128<64 384>
 LayerCount: 2
 Fore
@@ -8567,6 +8833,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -8574,8 +8841,8 @@ Encoding: 205 205 266
 GlifName: I_acute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 640 32G<192 320>
+Flags: W
+HStem: 0 21G<128 384> 640 21G<192 308>
 VStem: 192 128<64 512>
 LayerCount: 2
 Fore
@@ -8600,6 +8867,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: brokenbar
@@ -8607,7 +8875,7 @@ Encoding: 166 166 267
 GlifName: brokenbar
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 VStem: 192 128<-64 256 384 704>
 LayerCount: 2
 Fore
@@ -8623,6 +8891,7 @@ SplineSet
  192 384 l 1
  192 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Oacute
@@ -8630,9 +8899,9 @@ Encoding: 211 211 268
 GlifName: O_acute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 512 64<160 288> 640 32G<128 256>
-VStem: 0 128<96 480> 320 128<96 480>
+Flags: W
+HStem: 0 64<158.183 289.817> 512 64<158.183 289.817> 640 21G<128 244>
+VStem: 0 128<106.672 469.328> 320 128<106.672 469.328>
 LayerCount: 2
 Fore
 SplineSet
@@ -8653,6 +8922,7 @@ SplineSet
  128 640 l 1
  192 768 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ocircumflex
@@ -8660,9 +8930,9 @@ Encoding: 212 212 269
 GlifName: O_circumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 512 64<160 288> 640 32G<64 192 256 384>
-VStem: 0 128<96 480> 320 128<96 480>
+Flags: W
+HStem: 0 64<158.183 289.817> 512 64<158.183 289.817> 640 21G<64 180 268 384>
+VStem: 0 128<106.672 469.328> 320 128<106.672 469.328>
 LayerCount: 2
 Fore
 SplineSet
@@ -8685,6 +8955,7 @@ SplineSet
  64 640 l 25
  160 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -8692,9 +8963,9 @@ Encoding: 210 210 270
 GlifName: O_grave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 512 64<160 288> 640 32G<192 320>
-VStem: 0 128<96 480> 320 128<96 480>
+Flags: W
+HStem: 0 64<158.183 289.817> 512 64<158.183 289.817> 640 21G<204 320>
+VStem: 0 128<106.672 469.328> 320 128<106.672 469.328>
 LayerCount: 2
 Fore
 SplineSet
@@ -8715,6 +8986,7 @@ SplineSet
  320 448 320 512 224 512 c 0
  128 512 128 448 128 288 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Otilde
@@ -8722,9 +8994,9 @@ Encoding: 213 213 271
 GlifName: O_tilde
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 512 64<160 288> 640 64<0 64 256 320> 704 64<128 192 384 448>
-VStem: 0 128<96 480> 320 128<96 480>
+Flags: W
+HStem: 0 64<158.183 289.817> 512 64<158.183 289.817> 640 64<0 64 252.496 324.229> 704 64<123.771 195.504 384 448>
+VStem: 0 128<106.672 469.328> 320 128<106.672 469.328>
 LayerCount: 2
 Fore
 SplineSet
@@ -8750,6 +9022,7 @@ SplineSet
  160 640 224 704 160 704 c 1xdc
  96 704 160 640 0 640 c 1xec
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: otilde
@@ -8757,9 +9030,9 @@ Encoding: 245 245 272
 GlifName: otilde
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 384 64<160 288> 512 64<0 64 256 320> 576 64<128 192 384 448>
-VStem: 0 128<96 352> 320 128<96 352>
+Flags: W
+HStem: 0 64<161.096 286.904> 384 64<161.096 286.904> 512 64<0 64 252.496 324.229> 576 64<123.771 195.504 384 448>
+VStem: 0 128<99.7228 348.277> 320 128<99.7228 348.277>
 LayerCount: 2
 Fore
 SplineSet
@@ -8785,6 +9058,7 @@ SplineSet
  160 512 224 576 160 576 c 1xdc
  96 576 160 512 0 512 c 1xec
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Uacute
@@ -8792,9 +9066,9 @@ Encoding: 218 218 273
 GlifName: U_acute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 640 32G<128 256>
-VStem: 0 128<96 576> 320 128<96 576>
+Flags: W
+HStem: 0 64<160.651 287.349> 640 21G<128 244>
+VStem: 0 128<111.274 576> 320 128<111.274 576>
 LayerCount: 2
 Fore
 SplineSet
@@ -8816,6 +9090,7 @@ SplineSet
  128 640 l 1
  192 768 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ucircumflex
@@ -8823,9 +9098,9 @@ Encoding: 219 219 274
 GlifName: U_circumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 640 32G<64 192 256 384>
-VStem: 0 128<96 576> 320 128<96 576>
+Flags: W
+HStem: 0 64<160.651 287.349> 640 21G<64 180 268 384>
+VStem: 0 128<111.274 576> 320 128<111.274 576>
 LayerCount: 2
 Fore
 SplineSet
@@ -8851,6 +9126,7 @@ SplineSet
  64 640 l 25
  64 672 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ugrave
@@ -8858,9 +9134,9 @@ Encoding: 217 217 275
 GlifName: U_grave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<160 288> 640 32G<192 320>
-VStem: 0 128<96 576> 320 128<96 576>
+Flags: W
+HStem: 0 64<160.651 287.349> 640 21G<204 320>
+VStem: 0 128<111.274 576> 320 128<111.274 576>
 LayerCount: 2
 Fore
 SplineSet
@@ -8882,6 +9158,7 @@ SplineSet
  128 768 l 1
  256 768 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: yacute
@@ -8889,9 +9166,9 @@ Encoding: 253 253 276
 GlifName: yacute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 64<0 224> 0 64<160 288> 416 32G<0 128 320 448>
-VStem: 0 128<96 448> 320 128<-64 32 96 448>
+Flags: W
+HStem: -192 64<0 229.311> 0 64<160.623 287.914> 428 20G<0 128 320 448>
+VStem: 0 128<111.24 448> 320 128<-70.5 32 98.2971 448>
 LayerCount: 2
 Fore
 SplineSet
@@ -8916,6 +9193,7 @@ SplineSet
  128 512 l 1
  256 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Yacute
@@ -8923,8 +9201,8 @@ Encoding: 221 221 277
 GlifName: Y_acute
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 640 32G<192 320>
+Flags: W
+HStem: 0 21G<128 384> 640 21G<192 308>
 VStem: 64 128<384 576> 192 128<64 192> 320 128<384 576>
 LayerCount: 2
 Fore
@@ -8954,6 +9232,7 @@ SplineSet
  192 640 l 1xd0
  256 768 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Icircumflex
@@ -8961,8 +9240,8 @@ Encoding: 206 206 278
 GlifName: I_circumflex
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 640 32G<64 192 320 448>
+Flags: W
+HStem: 0 21G<128 384> 640 21G<64 180 332 448>
 VStem: 192 128<64 512>
 LayerCount: 2
 Fore
@@ -8989,6 +9268,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Idieresis
@@ -8996,9 +9276,9 @@ Encoding: 207 207 279
 GlifName: I_dieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 640 64<64 192 320 448>
-VStem: 64 128<640 704> 192 128<64 512> 320 128<640 704>
+Flags: W
+HStem: 0 21G<128 384> 640 64<65.4375 190.562 321.438 446.562>
+VStem: 64 128<643.296 700.704> 192 128<64 512> 320 128<643.296 700.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -9026,6 +9306,7 @@ SplineSet
  384 0 l 9
  128 0 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: thorn
@@ -9033,9 +9314,9 @@ Encoding: 254 254 280
 GlifName: thorn
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -192 32G<0 256> 0 64<192 320> 384 64<192 320> 608 32G<0 192>
-VStem: 64 128<-128 32 64 384 416 576> 320 128<96 352>
+Flags: W
+HStem: -192 21G<0 256> 0 64<204.554 306.918> 384 64<204.554 306.918> 620 20G<0 192>
+VStem: 64 128<-128 32 74.1355 373.865 416 576> 320 128<95.087 352.913>
 LayerCount: 2
 Fore
 SplineSet
@@ -9061,6 +9342,7 @@ SplineSet
  448 64 384 0 256 0 c 1
  224 0 192 0 192 32 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Thorn
@@ -9068,9 +9350,9 @@ Encoding: 222 222 281
 GlifName: T_horn
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 256> 128 64<192 320> 448 64<192 320> 608 32G<0 256>
-VStem: 64 128<64 160 192 448 480 576> 320 128<192 448>
+Flags: W
+HStem: 0 21G<0 256> 128 64<203.152 307.406> 448 64<203.152 307.406> 620 20G<0 256>
+VStem: 64 128<64 160 201.298 438.702 480 576> 320 128<202.934 437.066>
 LayerCount: 2
 Fore
 SplineSet
@@ -9098,6 +9380,7 @@ SplineSet
  448 160 384 128 256 128 c 1
  224 128 192 128 192 160 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: multiply
@@ -9105,8 +9388,8 @@ Encoding: 215 215 282
 GlifName: multiply
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 416 32G<0 128 320 448>
+Flags: W
+HStem: 428 20G<0 116 332 448>
 DStem2: 96 448 0 416 0.707107 -0.707107<0 181.019 271.529 452.548> 0 96 96 64 0.707107 0.707107<45.2548 226.274 316.784 497.803>
 LayerCount: 2
 Fore
@@ -9129,6 +9412,7 @@ SplineSet
  0 416 l 1
  0 448 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Igrave
@@ -9136,8 +9420,8 @@ Encoding: 204 204 283
 GlifName: I_grave
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<128 384> 640 32G<192 320>
+Flags: W
+HStem: 0 21G<128 384> 640 21G<204 320>
 VStem: 192 128<64 512>
 LayerCount: 2
 Fore
@@ -9162,6 +9446,7 @@ SplineSet
  384 32 l 1
  384 0 l 9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Oslash
@@ -9169,10 +9454,10 @@ Encoding: 216 216 284
 GlifName: O_slash
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<192 288> 576 64<160 256>
-VStem: 0 128<96 544> 320 128<96 544>
-DStem2: 128 64 192 64 0.242536 0.970142<15.5223 527.758>
+Flags: W
+HStem: 0 64<192 292.091> 576 64<155.909 256>
+VStem: 0 128<83.0952 528.542> 320 128<111.458 556.905>
+DStem2: 128 64 192 64 0.242536 0.970143<15.5223 527.758>
 LayerCount: 2
 Fore
 SplineSet
@@ -9200,6 +9485,7 @@ SplineSet
  320 416 320 544 320 576 c 1
  192 64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: oslash
@@ -9207,9 +9493,9 @@ Encoding: 248 248 285
 GlifName: oslash
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 64<128 288> 384 64<160 288>
-VStem: 0 128<64 96 224 352> 320 128<96 288>
+Flags: W
+HStem: 0 64<131.629 286.904> 384 64<162.106 285.894>
+VStem: 0 128<64 96 224 346.852> 320 128<101.148 285.894>
 DStem2: 128 224 128 96 0.707107 0.707107<0 181.019>
 LayerCount: 2
 Fore
@@ -9229,6 +9515,7 @@ SplineSet
  320 256 320 256 320 288 c 1
  128 96 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: registered
@@ -9236,9 +9523,9 @@ Encoding: 174 174 286
 GlifName: registered
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 64 64<96 352> 320 64<192 224> 448 64<192 256> 576 64<96 352>
-VStem: 0 64<160 544> 128 64<192 320 384 448> 256 64<192 288 384 448> 384 64<160 544>
+Flags: W
+HStem: 64 64<91.0622 356.938> 320 64<192 224> 448 64<192 254.474> 576 64<91.0622 356.938>
+VStem: 0 64<153.667 550.333> 128 64<192 320 384 448> 256 64<192 288 387.817 444.602> 384 64<153.667 550.333>
 LayerCount: 2
 Fore
 SplineSet
@@ -9270,6 +9557,7 @@ SplineSet
  448 96 416 64 224 64 c 3
  32 64 0 96 0 352 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: copyright
@@ -9277,9 +9565,9 @@ Encoding: 169 169 287
 GlifName: copyright
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 64 64<96 352> 192 64<224 288> 448 64<224 288> 576 64<96 352>
-VStem: 0 64<160 544> 128 64<288 416> 384 64<160 544>
+Flags: W
+HStem: 64 64<91.0622 356.938> 192 64<214.67 282.288> 448 64<214.67 282.288> 576 64<91.0622 356.938>
+VStem: 0 64<153.667 550.333> 128 64<278.2 425.8> 384 64<153.667 550.333>
 LayerCount: 2
 Fore
 SplineSet
@@ -9303,6 +9591,7 @@ SplineSet
  448 96 416 64 224 64 c 3
  32 64 0 96 0 352 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: currency
@@ -9310,9 +9599,9 @@ Encoding: 164 164 288
 GlifName: currency
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 0 32G<0 128 320 448> 64 64<160 288> 384 64<160 288>
-VStem: 0 128<160 352> 320 128<160 352>
+Flags: W
+HStem: 0 21G<0 116 332 448> 64 64<160 288> 384 64<160 288>
+VStem: 0 128<147.392 364.608> 320 128<147.392 364.608>
 LayerCount: 2
 Fore
 SplineSet
@@ -9345,6 +9634,7 @@ SplineSet
  320 384 288 384 224 384 c 0
  160 384 128 384 128 256 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: macron
@@ -9352,7 +9642,7 @@ Encoding: 175 175 289
 GlifName: macron
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 640 64<0 512>
 LayerCount: 2
 Fore
@@ -9363,6 +9653,7 @@ SplineSet
  0 640 l 1
  0 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0000
@@ -9370,8 +9661,10 @@ Encoding: 0 0 290
 GlifName: uni0000
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0001
@@ -9379,8 +9672,10 @@ Encoding: 1 1 291
 GlifName: uni0001
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0002
@@ -9388,8 +9683,10 @@ Encoding: 2 2 292
 GlifName: uni0002
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0003
@@ -9397,8 +9694,10 @@ Encoding: 3 3 293
 GlifName: uni0003
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0004
@@ -9406,8 +9705,10 @@ Encoding: 4 4 294
 GlifName: uni0004
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0005
@@ -9415,8 +9716,10 @@ Encoding: 5 5 295
 GlifName: uni0005
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0006
@@ -9424,8 +9727,10 @@ Encoding: 6 6 296
 GlifName: uni0006
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0007
@@ -9433,8 +9738,10 @@ Encoding: 7 7 297
 GlifName: uni0007
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0008
@@ -9442,8 +9749,10 @@ Encoding: 8 8 298
 GlifName: uni0008
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0009
@@ -9451,8 +9760,10 @@ Encoding: 9 9 299
 GlifName: uni0009
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni000A
@@ -9460,8 +9771,10 @@ Encoding: 10 10 300
 GlifName: uni000A_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni000B
@@ -9469,8 +9782,10 @@ Encoding: 11 11 301
 GlifName: uni000B_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni000C
@@ -9478,8 +9793,10 @@ Encoding: 12 12 302
 GlifName: uni000C_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni000D
@@ -9487,8 +9804,10 @@ Encoding: 13 13 303
 GlifName: uni000D_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni000E
@@ -9496,8 +9815,10 @@ Encoding: 14 14 304
 GlifName: uni000E_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni000F
@@ -9505,8 +9826,10 @@ Encoding: 15 15 305
 GlifName: uni000F_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0010
@@ -9514,8 +9837,10 @@ Encoding: 16 16 306
 GlifName: uni0010
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0011
@@ -9523,8 +9848,10 @@ Encoding: 17 17 307
 GlifName: uni0011
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0012
@@ -9532,8 +9859,10 @@ Encoding: 18 18 308
 GlifName: uni0012
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0013
@@ -9541,8 +9870,10 @@ Encoding: 19 19 309
 GlifName: uni0013
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0014
@@ -9550,8 +9881,10 @@ Encoding: 20 20 310
 GlifName: uni0014
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0015
@@ -9559,8 +9892,10 @@ Encoding: 21 21 311
 GlifName: uni0015
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0016
@@ -9568,8 +9903,10 @@ Encoding: 22 22 312
 GlifName: uni0016
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0017
@@ -9577,8 +9914,10 @@ Encoding: 23 23 313
 GlifName: uni0017
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0018
@@ -9586,8 +9925,10 @@ Encoding: 24 24 314
 GlifName: uni0018
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni0019
@@ -9595,8 +9936,10 @@ Encoding: 25 25 315
 GlifName: uni0019
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni001A
@@ -9604,8 +9947,10 @@ Encoding: 26 26 316
 GlifName: uni001A_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni001B
@@ -9613,8 +9958,10 @@ Encoding: 27 27 317
 GlifName: uni001B_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni001C
@@ -9622,8 +9969,10 @@ Encoding: 28 28 318
 GlifName: uni001C_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni001D
@@ -9631,8 +9980,10 @@ Encoding: 29 29 319
 GlifName: uni001D_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni001E
@@ -9640,8 +9991,10 @@ Encoding: 30 30 320
 GlifName: uni001E_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni001F
@@ -9649,8 +10002,10 @@ Encoding: 31 31 321
 GlifName: uni001F_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: uni007F
@@ -9658,8 +10013,10 @@ Encoding: 127 127 322
 GlifName: uni007F_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: acute
@@ -9667,7 +10024,7 @@ Encoding: 180 180 323
 GlifName: acute
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 512 192
 VStem: 128 256
 LayerCount: 2
@@ -9680,6 +10037,7 @@ SplineSet
  128 512 l 1
  256 704 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni00AD
@@ -9687,7 +10045,7 @@ Encoding: 173 173 324
 GlifName: uni00A_D_
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 256 64<0 448>
 LayerCount: 2
 Fore
@@ -9698,6 +10056,7 @@ SplineSet
  0 256 l 1
  0 320 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: underscoredbl
@@ -9705,7 +10064,7 @@ Encoding: 362 8215 325
 GlifName: underscoredbl
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -192 64<0 512> -64 64<0 512>
 LayerCount: 2
 Fore
@@ -9721,6 +10080,7 @@ SplineSet
  0 -64 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: cedilla
@@ -9728,9 +10088,9 @@ Encoding: 184 184 326
 GlifName: cedilla
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: -128 64<64 256>
-VStem: 256 128<-64 0>
+Flags: W
+HStem: -128 64<64 255.855>
+VStem: 256 128<-63.2059 2.63312>
 LayerCount: 2
 Fore
 SplineSet
@@ -9744,6 +10104,7 @@ SplineSet
  256 64 160 0 128 64 c 1
  288 64 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dieresis
@@ -9751,9 +10112,9 @@ Encoding: 168 168 327
 GlifName: dieresis
 Width: 512
 VWidth: 0
-Flags: HW
-HStem: 640 64<0 128 320 448>
-VStem: 0 128<640 704> 320 128<640 704>
+Flags: W
+HStem: 640 64<1.4375 126.562 321.438 446.562>
+VStem: 0 128<643.296 700.704> 320 128<643.296 700.704>
 LayerCount: 2
 Fore
 SplineSet
@@ -9768,6 +10129,7 @@ SplineSet
  96 704 128 704 128 672 c 0
  128 640 96 640 64 640 c 0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni00B9
@@ -9775,7 +10137,7 @@ Encoding: 185 185 328
 GlifName: uni00B_9
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 VStem: 192 128<384 576>
 LayerCount: 2
 Fore
@@ -9793,6 +10155,7 @@ SplineSet
  224 704 l 25
  320 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni00B3
@@ -9800,8 +10163,9 @@ Encoding: 179 179 329
 GlifName: uni00B_3
 Width: 512
 VWidth: 0
-Flags: HW
-VStem: 320 128<416 480 576 608>
+Flags: W
+HStem: 320 64<64 261.953> 512 64<128 279.282> 640 64<64 296.375>
+VStem: 320 128<420.762 480.12 591.914 621.57>
 LayerCount: 2
 Fore
 SplineSet
@@ -9820,6 +10184,7 @@ SplineSet
  320 640 64 640 64 640 c 1
  64 704 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni00A0
@@ -9827,8 +10192,776 @@ Encoding: 160 160 330
 GlifName: uni00A_0
 Width: 512
 VWidth: 0
-Flags: HW
+Flags: W
 LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: Euro
+Encoding: 363 8364 331
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 64<261.162 390.87> 256 64<0 64 192 320> 384 64<0 64 192 384> 576 64<241.144 391.037>
+VStem: 64 128<142.797 256 320 384>
+LayerCount: 2
+Fore
+SplineSet
+448 64 m 1
+ 448 64 448 0 320 0 c 0
+ 160 0 64 96 64 256 c 1
+ 0 256 l 1
+ 0 320 l 1
+ 64 320 l 1
+ 64 352 64 352 64 384 c 1
+ 0 384 l 1
+ 0 448 l 1
+ 64 448 l 1
+ 96 576 192 640 320 640 c 0
+ 448 640 480 576 480 576 c 1
+ 448 512 l 1
+ 448 512 384 576 320 576 c 0
+ 256 576 192 544 192 448 c 1
+ 416 448 l 1
+ 384 384 l 1
+ 192 384 l 1
+ 192 352 192 352 192 320 c 1
+ 352 320 l 1
+ 320 256 l 1
+ 192 256 l 1
+ 192 128 256 64 320 64 c 0
+ 384 64 448 128 448 128 c 1
+ 448 64 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotesinglbase
+Encoding: 364 8218 332
+Width: 512
+VWidth: 0
+Flags: W
+HStem: -64 256<256 288> 0 21G<240 272>
+VStem: 192 128<33.8882 170.906>
+LayerCount: 2
+Fore
+SplineSet
+192 96 m 0x60
+ 192 160 224 192 256 192 c 0
+ 288 192 320 160 320 96 c 0
+ 320 32 320 -64 256 -64 c 1xa0
+ 256 -32 l 0
+ 288 32 l 1
+ 288 32 288 32 256 0 c 1
+ 224 0 192 32 192 96 c 0x60
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblbase
+Encoding: 365 8222 333
+Width: 512
+VWidth: 0
+Flags: W
+HStem: -64 256<128 160 384 416> 0 21G<112 144 368 400>
+VStem: 64 128<33.8882 170.906> 320 128<33.8882 170.906>
+LayerCount: 2
+Fore
+SplineSet
+320 96 m 0x70
+ 320 160 352 192 384 192 c 0
+ 416 192 448 160 448 96 c 0
+ 448 32 448 -64 384 -64 c 1xb0
+ 384 -32 l 0
+ 416 32 l 1
+ 416 32 416 32 384 0 c 1
+ 352 0 320 32 320 96 c 0x70
+64 96 m 0
+ 64 160 96 192 128 192 c 0
+ 160 192 192 160 192 96 c 0
+ 192 32 192 -64 128 -64 c 1xb0
+ 128 -32 l 0
+ 160 32 l 1
+ 160 32 160 32 128 0 c 1x70
+ 96 0 64 32 64 96 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: ellipsis
+Encoding: 366 8230 334
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 128<17.7979 110.202 209.798 302.202 401.798 494.202>
+VStem: 0 128<17.7979 110.202> 192 128<17.7979 110.202> 384 128<17.7979 110.202>
+CounterMasks: 1 70
+LayerCount: 2
+Fore
+SplineSet
+384 64 m 0
+ 384 96 416 128 448 128 c 0
+ 480 128 512 96 512 64 c 0
+ 512 32 480 0 448 0 c 0
+ 416 0 384 32 384 64 c 0
+192 64 m 0
+ 192 96 224 128 256 128 c 0
+ 288 128 320 96 320 64 c 0
+ 320 32 288 0 256 0 c 0
+ 224 0 192 32 192 64 c 0
+0 64 m 0
+ 0 96 32 128 64 128 c 0
+ 96 128 128 96 128 64 c 0
+ 128 32 96 0 64 0 c 0
+ 32 0 0 32 0 64 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: dagger
+Encoding: 367 8224 335
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 384 64<64 192 320 448> 620 20G<192 320>
+VStem: 192 128<-128 384 448 640>
+LayerCount: 2
+Fore
+SplineSet
+192 640 m 1
+ 320 640 l 1
+ 320 448 l 1
+ 448 448 l 1
+ 448 384 l 1
+ 320 384 l 1
+ 320 -128 l 1
+ 192 -128 l 1
+ 192 384 l 1
+ 64 384 l 1
+ 64 448 l 1
+ 192 448 l 1
+ 192 640 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: daggerdbl
+Encoding: 368 8225 336
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 64 64<64 192 320 448> 384 64<64 192 320 448> 620 20G<192 320>
+VStem: 192 128<-128 64 128 384 448 640>
+LayerCount: 2
+Fore
+SplineSet
+192 640 m 1
+ 320 640 l 1
+ 320 448 l 1
+ 448 448 l 1
+ 448 384 l 1
+ 320 384 l 1
+ 320 128 l 1
+ 448 128 l 1
+ 448 64 l 1
+ 320 64 l 1
+ 320 -128 l 1
+ 192 -128 l 1
+ 192 64 l 1
+ 64 64 l 1
+ 64 128 l 1
+ 192 128 l 1
+ 192 384 l 1
+ 64 384 l 1
+ 64 448 l 1
+ 192 448 l 1
+ 192 640 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: circumflex
+Encoding: 369 710 337
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 640 128
+VStem: 64 320
+LayerCount: 2
+Fore
+SplineSet
+160 768 m 1
+ 288 768 l 1
+ 384 640 l 1
+ 288 640 l 1
+ 224 704 l 1
+ 160 640 l 1
+ 64 640 l 25
+ 160 768 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: perthousand
+Encoding: 370 8240 338
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 64<192.794 255.206 384.794 447.206> 128 64<192.794 255.206 384.794 447.206> 320 64<64.7941 127.206> 428 20G<268 320> 448 64<64.7941 127.206>
+VStem: 0 64<384.794 447.206> 128 64<64.7941 127.206 384.794 447.206> 256 128<64.0625 127.938> 448 64<64.7941 127.206>
+DStem2: 0 160 32 64 0.707107 0.707107<0 362.039>
+LayerCount: 2
+Fore
+SplineSet
+64 416 m 0xef80
+ 64 384 64 384 96 384 c 0
+ 128 384 128 384 128 416 c 0
+ 128 448 128 448 96 448 c 0
+ 64 448 64 448 64 416 c 0xef80
+0 416 m 0
+ 0 448 64 512 96 512 c 0
+ 128 512 192 448 192 416 c 0
+ 192 384 128 320 96 320 c 0
+ 64 320 0 384 0 416 c 0
+384 96 m 0
+ 384 64 384 64 416 64 c 0
+ 448 64 448 64 448 96 c 0
+ 448 128 448 128 416 128 c 0
+ 384 128 384 128 384 96 c 0
+0 160 m 1
+ 288 448 l 1
+ 320 448 l 1xf780
+ 320 352 l 1
+ 32 64 l 1
+ 0 64 l 1
+ 0 160 l 1
+192 96 m 0
+ 192 64 192 64 224 64 c 0
+ 256 64 256 64 256 96 c 0
+ 256 128 256 128 224 128 c 0
+ 192 128 192 128 192 96 c 0
+128 96 m 0
+ 128 128 192 192 224 192 c 0
+ 256 192 320 128 320 128 c 1
+ 320 128 384 192 416 192 c 0
+ 448 192 512 128 512 96 c 0
+ 512 64 448 0 416 0 c 0
+ 384 0 320 64 320 64 c 1
+ 320 64 256 0 224 0 c 0
+ 192 0 128 64 128 96 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: Scaron
+Encoding: 371 352 339
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 64<144.5 305.463> 256 64<183.232 264.768> 512 64<142.537 303.5> 640 21G<145 303>
+VStem: 0 128<86.6881 192 371.382 496.5> 320 128<79.5 204.618 384 489.312>
+LayerCount: 2
+Fore
+SplineSet
+160 640 m 1
+ 64 768 l 25
+ 160 768 l 1
+ 224 704 l 1
+ 288 768 l 1
+ 384 768 l 1
+ 288 640 l 1
+ 160 640 l 1
+128 192 m 1
+ 128 96 128 64 224 64 c 3
+ 320 64 320 96 320 160 c 0
+ 320 192 256 256 224 256 c 3
+ 96 256 0 384 0 416 c 0
+ 0 512 64 576 224 576 c 0
+ 384 576 448 512 448 384 c 1
+ 320 384 l 1
+ 320 480 320 512 224 512 c 3
+ 128 512 128 480 128 416 c 0
+ 128 384 192 320 224 320 c 3
+ 352 320 448 192 448 160 c 3
+ 448 64 384 0 224 0 c 3
+ 64 0 0 64 0 192 c 1
+ 128 192 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: guilsinglleft
+Encoding: 372 8249 340
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 320
+VStem: 128 256
+DStem2: 256 160 128 160 0.707107 -0.707107<0 135.765> 128 160 256 160 0.707107 0.707107<90.5097 226.274>
+LayerCount: 2
+Fore
+SplineSet
+128 160 m 1
+ 288 320 l 1
+ 384 320 l 1
+ 384 288 l 1
+ 256 160 l 1
+ 384 32 l 1
+ 384 0 l 1
+ 288 0 l 1
+ 128 160 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: OE
+Encoding: 373 338 341
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 64<159.25 224> 320 64<384 448> 576 64<159.25 224>
+VStem: 0 128<101.322 538.678> 256 128<96 320 384 544>
+LayerCount: 2
+Fore
+SplineSet
+256 544 m 1
+ 224 576 l 0
+ 160 576 128 576 128 320 c 0
+ 128 64 160 64 224 64 c 0
+ 256 96 l 1
+ 256 544 l 1
+224 0 m 2
+ 32 0 0 64 0 320 c 0
+ 0 576 32 640 224 640 c 2
+ 448 640 l 25
+ 448 608 l 25
+ 384 576 l 25
+ 384 384 l 25
+ 448 384 l 25
+ 448 320 l 25
+ 384 320 l 25
+ 384 64 l 25
+ 448 32 l 25
+ 448 0 l 25
+ 224 0 l 2
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: Zcaron
+Encoding: 374 381 342
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 64<128 288> 512 64<160 320> 640 21G<145 303>
+VStem: 0 128<64 160>
+DStem2: 0 160 128 160 0.707107 0.707107<90.5097 452.548>
+LayerCount: 2
+Fore
+SplineSet
+160 640 m 1
+ 64 768 l 25
+ 160 768 l 1
+ 224 704 l 1
+ 288 768 l 1
+ 384 768 l 1
+ 288 640 l 1
+ 160 640 l 1
+0 0 m 1
+ 0 160 l 1
+ 320 480 l 1
+ 320 512 l 1
+ 160 512 l 1
+ 32 384 l 1
+ 0 384 l 9
+ 0 576 l 1
+ 448 576 l 1
+ 448 480 l 1
+ 128 160 l 1
+ 128 64 l 1
+ 288 64 l 17
+ 416 192 l 1
+ 448 192 l 9
+ 448 0 l 25
+ 0 0 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quoteleft
+Encoding: 375 8216 343
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 448 256<224 256> 620 20G<240 272>
+VStem: 192 128<469.094 606.112>
+LayerCount: 2
+Fore
+SplineSet
+320 544 m 0x60
+ 320 480 288 448 256 448 c 0
+ 224 448 192 480 192 544 c 0
+ 192 608 192 704 256 704 c 1xa0
+ 256 672 l 0
+ 224 608 l 1
+ 224 608 224 608 256 640 c 1
+ 288 640 320 608 320 544 c 0x60
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quoteright
+Encoding: 376 8217 344
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 448 256<256 288>
+VStem: 192 128<545.888 682.906>
+LayerCount: 2
+Fore
+SplineSet
+192 608 m 0
+ 192 672 224 704 256 704 c 0
+ 288 704 320 672 320 608 c 0
+ 320 544 320 448 256 448 c 1
+ 256 480 l 0
+ 288 544 l 1
+ 288 544 288 544 256 512 c 1
+ 224 512 192 544 192 608 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblleft
+Encoding: 377 8220 345
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 448 256<96 128 352 384> 620 20G<112 144 368 400>
+VStem: 64 128<469.094 606.112> 320 128<469.094 606.112>
+LayerCount: 2
+Fore
+SplineSet
+192 544 m 0x70
+ 192 480 160 448 128 448 c 0
+ 96 448 64 480 64 544 c 0
+ 64 608 64 704 128 704 c 1xb0
+ 128 672 l 0
+ 96 608 l 1
+ 96 608 96 608 128 640 c 1
+ 160 640 192 608 192 544 c 0x70
+448 544 m 0
+ 448 480 416 448 384 448 c 0
+ 352 448 320 480 320 544 c 0
+ 320 608 320 704 384 704 c 1xb0
+ 384 672 l 0
+ 352 608 l 1
+ 352 608 352 608 384 640 c 1x70
+ 416 640 448 608 448 544 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: quotedblright
+Encoding: 378 8221 346
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 448 256<128 160 384 416>
+VStem: 64 128<545.888 682.906> 320 128<545.888 682.906>
+LayerCount: 2
+Fore
+SplineSet
+320 608 m 0
+ 320 672 352 704 384 704 c 0
+ 416 704 448 672 448 608 c 0
+ 448 544 448 448 384 448 c 1
+ 384 480 l 0
+ 416 544 l 1
+ 416 544 416 544 384 512 c 1
+ 352 512 320 544 320 608 c 0
+64 608 m 0
+ 64 672 96 704 128 704 c 0
+ 160 704 192 672 192 608 c 0
+ 192 544 192 448 128 448 c 1
+ 128 480 l 0
+ 160 544 l 1
+ 160 544 160 544 128 512 c 1
+ 96 512 64 544 64 608 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: endash
+Encoding: 379 8211 347
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 256 64<64 384>
+VStem: 64 320<256 320>
+LayerCount: 2
+Fore
+SplineSet
+64 320 m 1
+ 384 320 l 1
+ 384 256 l 1
+ 64 256 l 1
+ 64 320 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: emdash
+Encoding: 380 8212 348
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 256 64<0 448>
+LayerCount: 2
+Fore
+SplineSet
+0 320 m 1
+ 448 320 l 1
+ 448 256 l 1
+ 0 256 l 1
+ 0 320 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: tilde
+Encoding: 381 732 349
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 576 64<261.334 314.602> 640 64<197.398 250.666>
+VStem: 128 256
+LayerCount: 2
+Fore
+SplineSet
+128 608 m 1xa0
+ 128 640 192 704 224 704 c 1x60
+ 256 704 256 640 288 640 c 1xa0
+ 320 640 320 704 352 704 c 1
+ 384 704 l 1x60
+ 384 672 l 1
+ 384 640 320 576 288 576 c 1xa0
+ 256 576 256 640 224 640 c 1x60
+ 192 640 192 576 160 576 c 1
+ 128 576 l 1
+ 128 608 l 1xa0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: trademark
+Encoding: 382 8482 350
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 448 192<64 128 192 224 416 448> 576 64<0 64 128 192>
+VStem: 64 64<448 576> 192 64<448 544> 384 64<448 544>
+LayerCount: 2
+Fore
+SplineSet
+192 448 m 1xb8
+ 192 576 l 1
+ 128 576 l 1x78
+ 128 448 l 1
+ 64 448 l 1xb8
+ 64 576 l 1
+ 0 576 l 1
+ 0 640 l 1x78
+ 224 640 l 1
+ 320 544 l 1
+ 416 640 l 1
+ 448 640 l 1
+ 448 448 l 1
+ 384 448 l 1
+ 384 544 l 1
+ 320 480 l 1
+ 256 544 l 1
+ 256 448 l 1
+ 192 448 l 1xb8
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: scaron
+Encoding: 383 353 351
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 64<149.893 314.193> 384 64<133.807 298.107>
+VStem: 0 128<87.5 128 323.458 372.359> 320 128<75.2578 124.542 320 360.5>
+LayerCount: 2
+Fore
+SplineSet
+128 128 m 1
+ 128 128 128 64 224 64 c 3
+ 320 64 320 96 320 96 c 0
+ 320 128 192 192 192 192 c 0
+ 192 192 0 288 0 352 c 0
+ 0 352 0 448 224 448 c 3
+ 448 448 448 320 448 320 c 1
+ 320 320 l 1
+ 320 320 320 384 224 384 c 3
+ 128 384 128 352 128 352 c 0
+ 128 320 256 256 256 256 c 0
+ 256 256 448 160 448 96 c 3
+ 448 64 448 0 224 0 c 3
+ 0 0 0 128 0 128 c 1
+ 128 128 l 1
+192 512 m 1
+ 64 704 l 1
+ 160 704 l 25
+ 224 640 l 25
+ 288 704 l 25
+ 384 704 l 1
+ 256 512 l 1
+ 192 512 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: guilsinglright
+Encoding: 384 8250 352
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 320
+VStem: 128 256
+DStem2: 224 320 128 288 0.707107 -0.707107<0 135.765> 128 32 224 0 0.707107 0.707107<45.2548 181.019>
+LayerCount: 2
+Fore
+SplineSet
+384 160 m 1
+ 224 0 l 1
+ 128 0 l 1
+ 128 32 l 1
+ 256 160 l 1
+ 128 288 l 1
+ 128 320 l 1
+ 224 320 l 1
+ 384 160 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: oe
+Encoding: 385 339 353
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 64<137.573 182.15 354.172 484.906> 192 64<323.296 376.361> 384 64<137.573 182.041 324.136 416>
+VStem: 0 128<105.677 342.323> 192 128<93.9103 192 257.438 381.062> 384 128<258.469 381.651>
+CounterMasks: 1 fc
+LayerCount: 2
+Fore
+SplineSet
+128 224 m 0
+ 128 128 128 64 160 64 c 0
+ 192 64 192 128 192 224 c 0
+ 192 320 192 384 160 384 c 0
+ 128 384 128 320 128 224 c 0
+160 0 m 0
+ 64 0 0 96 0 224 c 0
+ 0 352 64 448 160 448 c 0
+ 224 448 224 384 224 384 c 1
+ 256 416 320 448 384 448 c 0
+ 448 448 512 384 512 320 c 0
+ 512 224 512 192 320 192 c 1
+ 320 96 320 64 512 64 c 1
+ 512 0 480 0 416 0 c 0
+ 288 0 320 32 288 64 c 1
+ 288 64 256 0 160 0 c 0
+320 320 m 1
+ 320 288 320 256 352 256 c 1
+ 384 256 384 288 384 320 c 1
+ 384 352 384 384 352 384 c 0
+ 320 384 320 352 320 320 c 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: zcaron
+Encoding: 386 382 354
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 128<352 448> 0 64<96 288> 320 128<0 96> 384 64<160 288>
+DStem2: 0 96 96 64 0.707107 0.707107<45.2548 407.294>
+LayerCount: 2
+Fore
+SplineSet
+192 512 m 1x00
+ 64 704 l 1
+ 160 704 l 25
+ 224 640 l 25
+ 288 704 l 25
+ 384 704 l 1
+ 256 512 l 1
+ 192 512 l 1x00
+96 320 m 1x20
+ 0 320 l 1
+ 0 448 l 25x20
+ 448 448 l 17
+ 448 416 l 1
+ 96 64 l 1
+ 288 64 l 1x50
+ 352 128 l 1
+ 448 128 l 1
+ 448 0 l 25x80
+ 0 0 l 1
+ 0 96 l 1
+ 288 384 l 1
+ 160 384 l 1x50
+ 96 320 l 1x20
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: Ydieresis
+Encoding: 387 376 355
+Width: 512
+VWidth: 0
+Flags: W
+HStem: 0 21G<128 384> 640 64<65.4375 190.562 321.438 446.562>
+VStem: 64 128<384 576 643.296 700.704> 192 128<64 192> 320 128<384 576 643.296 700.704>
+LayerCount: 2
+Fore
+SplineSet
+384 640 m 0xc8
+ 352 640 320 640 320 672 c 0
+ 320 704 352 704 384 704 c 0
+ 416 704 448 704 448 672 c 0
+ 448 640 416 640 384 640 c 0xc8
+128 640 m 0
+ 96 640 64 640 64 672 c 0
+ 64 704 96 704 128 704 c 0
+ 160 704 192 704 192 672 c 0xe0
+ 192 640 160 640 128 640 c 0
+64 576 m 1
+ 192 576 l 1
+ 192 384 l 1
+ 256 256 l 1
+ 320 384 l 1
+ 320 576 l 1
+ 448 576 l 1
+ 448 384 l 1xe8
+ 320 192 l 1
+ 320 64 l 1
+ 384 32 l 1
+ 384 0 l 1
+ 128 0 l 1
+ 128 32 l 1
+ 192 64 l 1
+ 192 192 l 1xd0
+ 64 384 l 1
+ 64 576 l 1
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
